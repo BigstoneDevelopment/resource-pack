@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bigstone_sandbox:item/empty_slot"
+  },
+  "gui_light":"front",
+  "display": {
+      "gui": {
+          "rotation":  [ 0, 180, 0 ],
+          "translation":  [ 0, 0, 0 ],
+          "scale":  [ 1.13, 1.13, 1.13 ]
+      },
+      "ground" :{
+          "scale": [0,0,0]
+      }
+  }
+}
