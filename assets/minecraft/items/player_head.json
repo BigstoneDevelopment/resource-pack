@@ -1,0 +1,51 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property":"custom_model_data",
+    "fallback":{
+      "type": "minecraft:special",
+      "base": "minecraft:item/template_skull",
+      "model": {
+        "type": "minecraft:player_head"
+      }
+    },
+    "cases":
+    [
+      {
+        "when":"paste_component",
+        "model":{
+          "type":"minecraft:model",
+          "model":"minecraft:item/cake"
+        }
+      },
+      {
+        "when":"cut_component",
+        "model":{
+          "type":"minecraft:model",
+          "model":"minecraft:item/cake"
+        }
+      },
+      {
+        "when":"up_filter",
+        "model":{
+          "type":"minecraft:model",
+          "model":"minecraft:item/cake"
+        }
+      },
+      {
+        "when":"down_filter",
+        "model":{
+          "type":"minecraft:model",
+          "model":"minecraft:item/cake"
+        }
+      },
+      {
+        "when":"filter_tag",
+        "model":{
+          "type":"minecraft:model",
+          "model":"minecraft:item/cake"
+        }
+      }
+    ]
+  }
+}
