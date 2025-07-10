@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property":"custom_model_data",
+    "fallback":{
+      "type": "minecraft:special",
+      "base": "minecraft:item/template_skull",
+      "model": {
+        "type": "minecraft:player_head"
+      }
+    },
+    "cases":
+    [
+      {
+        "when":"test",
+        "model":{
+          "type":"minecraft:model",
+          "model":"minecraft:item/cake"
+        }
+      }
+    ]
+  }
+}
