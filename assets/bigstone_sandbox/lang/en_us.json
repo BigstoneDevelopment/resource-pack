@@ -1,4 +1,29 @@
 {
-  "dialog_menu.background": "",
-  "dialog_menu.button.close_menu": ""
+  "bigstone_sandbox.dialog_menu.background.top": "\u0001",
+  "bigstone_sandbox.dialog_menu.background.bottom": "\u0002",
+
+  "bigstone_sandbox.dialog_menu.button.delete": "\u0011",
+  "bigstone_sandbox.dialog_menu.button.edit": "\u0012",
+  "bigstone_sandbox.dialog_menu.button.export": "\u0013",
+  "bigstone_sandbox.dialog_menu.button.filter": "\u0014",
+  "bigstone_sandbox.dialog_menu.button.give": "\u0015",
+  "bigstone_sandbox.dialog_menu.button.import": "\u0016",
+
+  "bigstone_sandbox.dialog_menu.button.x": "x",
+
+
+  "bigstone_sandbox.dialog_menu.components_menu": "Components Menu",
+  "bigstone_sandbox.dialog_menu.close_menu": "Close Menu",
+  "bigstone_sandbox.dialog_menu.specifications": "Specs",
+  "bigstone_sandbox.dialog_menu.port_north": "North: ",
+  "bigstone_sandbox.dialog_menu.port_south": "South: ",
+  "bigstone_sandbox.dialog_menu.port_east": "East: ",
+  "bigstone_sandbox.dialog_menu.port_west": "West: ",
+  "bigstone_sandbox.dialog_menu.tags": "Tags: ",
+  "bigstone_sandbox.dialog_menu.delete": "Delete",
+  "bigstone_sandbox.dialog_menu.edit": "Edit",
+  "bigstone_sandbox.dialog_menu.export": "Export",
+  "bigstone_sandbox.dialog_menu.filter": "Filter",
+  "bigstone_sandbox.dialog_menu.give": "Add to inventory",
+  "bigstone_sandbox.dialog_menu.import": "Import"
 }
