@@ -8,6 +8,15 @@
       "chars": [
         ""
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/close_menu.png",
+      "height": 15,
+      "ascent": 11,
+      "chars": [
+        ""
+      ]
     }
   ]
 }
