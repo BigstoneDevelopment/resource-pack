@@ -20,6 +20,24 @@
     },
     {
       "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/middle.png",
+      "height": 128,
+      "ascent": 0,
+      "chars": [
+        "\u0003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/credits.png",
+      "height": 40,
+      "ascent": 0,
+      "chars": [
+        "\u0004"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "bigstone_sandbox:font/button/delete.png",
       "height": 16,
       "ascent": 8,

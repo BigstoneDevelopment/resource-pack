@@ -1,6 +1,11 @@
 {
+  "bigstone_sandbox.dialog_menu.credits_line1": "Bigstone Sandbox",
+  "bigstone_sandbox.dialog_menu.credits_line2": "Copyright (c) 2025 BigstoneDevelopment.",
+
   "bigstone_sandbox.dialog_menu.background.top": "\u0001",
   "bigstone_sandbox.dialog_menu.background.bottom": "\u0002",
+  "bigstone_sandbox.dialog_menu.background.middle": "\u0003",
+  "bigstone_sandbox.dialog_menu.background.credits": "\u0004",
 
   "bigstone_sandbox.dialog_menu.button.delete": "\u0011",
   "bigstone_sandbox.dialog_menu.button.edit": "\u0012",
@@ -12,18 +17,20 @@
   "bigstone_sandbox.dialog_menu.button.x": "x",
 
 
-  "bigstone_sandbox.dialog_menu.components_menu": "Components Menu",
-  "bigstone_sandbox.dialog_menu.close_menu": "Close Menu",
-  "bigstone_sandbox.dialog_menu.specifications": "Specs",
-  "bigstone_sandbox.dialog_menu.port_north": "North: ",
-  "bigstone_sandbox.dialog_menu.port_south": "South: ",
-  "bigstone_sandbox.dialog_menu.port_east": "East: ",
-  "bigstone_sandbox.dialog_menu.port_west": "West: ",
-  "bigstone_sandbox.dialog_menu.tags": "Tags: ",
-  "bigstone_sandbox.dialog_menu.delete": "Delete",
-  "bigstone_sandbox.dialog_menu.edit": "Edit",
-  "bigstone_sandbox.dialog_menu.export": "Export",
-  "bigstone_sandbox.dialog_menu.filter": "Filter",
-  "bigstone_sandbox.dialog_menu.give": "Add to inventory",
-  "bigstone_sandbox.dialog_menu.import": "Import"
+  "bigstone_sandbox.dialog_menu.components_menu": "ʙɪɢꜱᴛᴏɴᴇ ꜱᴀɴᴅʙᴏx - ᴄᴏᴍᴘᴏɴᴇɴᴛ ɪɴꜰᴏ",
+  "bigstone_sandbox.dialog_menu.close_menu": "ᴄʟᴏꜱᴇ ᴍᴇɴᴜ",
+  "bigstone_sandbox.dialog_menu.specifications": "ꜱᴘᴇᴄꜱ",
+  "bigstone_sandbox.dialog_menu.port_top": "ᴛᴏᴘ: ",
+  "bigstone_sandbox.dialog_menu.port_bottom": "ʙᴏᴛᴛᴏᴍ: ",
+  "bigstone_sandbox.dialog_menu.port_north": "ɴᴏʀᴛʜ: ",
+  "bigstone_sandbox.dialog_menu.port_south": "ꜱᴏᴜᴛʜ: ",
+  "bigstone_sandbox.dialog_menu.port_east": "ᴇᴀꜱᴛ: ",
+  "bigstone_sandbox.dialog_menu.port_west": "ᴡᴇꜱᴛ: ",
+  "bigstone_sandbox.dialog_menu.tags": "ᴛᴀɢꜱ: ",
+  "bigstone_sandbox.dialog_menu.delete": "ᴅᴇʟᴇᴛᴇ",
+  "bigstone_sandbox.dialog_menu.edit": "ᴇᴅɪᴛ",
+  "bigstone_sandbox.dialog_menu.export": "ᴇxᴘᴏʀᴛ",
+  "bigstone_sandbox.dialog_menu.filter": "ꜰɪʟᴛᴇʀ",
+  "bigstone_sandbox.dialog_menu.give": "ᴀᴅᴅ ᴛᴏ ɪɴᴠᴇɴᴛᴏʀʏ",
+  "bigstone_sandbox.dialog_menu.import": "ɪᴍᴘᴏʀᴛ"
 }
