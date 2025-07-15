@@ -93,7 +93,7 @@
     {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/button/close_menu.png",
-      "height": 17,
+      "height": 16,
       "ascent": 8,
       "chars": [
         "\u0017"
@@ -102,10 +102,19 @@
     {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/button/back.png",
-      "height": 17,
+      "height": 16,
       "ascent": 8,
       "chars": [
         "\u0018"
+      ]
+    },
+        {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/search.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0019"
       ]
     },
     {
