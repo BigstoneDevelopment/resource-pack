@@ -38,6 +38,15 @@
     },
     {
       "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/button_box.png",
+      "height": 256,
+      "ascent": 0,
+      "chars": [
+        "\u0005"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "bigstone_sandbox:font/button/delete.png",
       "height": 16,
       "ascent": 8,
@@ -74,7 +83,7 @@
     },
     {
       "type": "bitmap",
-      "file": "bigstone_sandbox:font/button/give.png",
+      "file": "bigstone_sandbox:font/button/give_long.png",
       "height": 16,
       "ascent": 8,
       "chars": [
@@ -178,6 +187,33 @@
       "ascent": 8,
       "chars": [
         "\u0027"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/give_short.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u0028"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/info_short.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u0029"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/blank_2.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u001D"
       ]
     },
     {
