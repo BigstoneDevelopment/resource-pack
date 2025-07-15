@@ -108,13 +108,76 @@
         "\u0018"
       ]
     },
-        {
+    {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/button/search.png",
       "height": 16,
       "ascent": 8,
       "chars": [
         "\u0019"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/home.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0020"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/credits.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0021"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/components.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0022"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/options.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0023"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/wiki.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0024"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/discord.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0026"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/github.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0027"
       ]
     },
     {
