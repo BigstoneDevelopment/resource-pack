@@ -29,9 +29,9 @@
     },
     {
       "type": "bitmap",
-      "file": "bigstone_sandbox:font/background/credits.png",
-      "height": 40,
-      "ascent": 0,
+      "file": "bigstone_sandbox:font/background/home.png",
+      "height": 256,
+      "ascent": 8,
       "chars": [
         "\u0004"
       ]
@@ -39,7 +39,7 @@
     {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/background/button_box.png",
-      "height": 256,
+      "height": 36,
       "ascent": 0,
       "chars": [
         "\u0005"
