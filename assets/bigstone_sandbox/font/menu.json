@@ -137,7 +137,7 @@
     },
     {
       "type": "bitmap",
-      "file": "bigstone_sandbox:font/button/credits.png",
+      "file": "bigstone_sandbox:font/button/admin.png",
       "height": 16,
       "ascent": 8,
       "chars": [
@@ -146,56 +146,11 @@
     },
     {
       "type": "bitmap",
-      "file": "bigstone_sandbox:font/button/components.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": [
-        "\u0022"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "bigstone_sandbox:font/button/options.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": [
-        "\u0023"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "bigstone_sandbox:font/button/wiki.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": [
-        "\u0024"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "bigstone_sandbox:font/button/discord.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": [
-        "\u0026"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "bigstone_sandbox:font/button/github.png",
-      "height": 16,
-      "ascent": 8,
-      "chars": [
-        "\u0027"
-      ]
-    },
-    {
-      "type": "bitmap",
       "file": "bigstone_sandbox:font/button/give_short.png",
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u0028"
+        "\u0022"
       ]
     },
     {
@@ -204,7 +159,25 @@
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u0029"
+        "\u0023"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/toggle/off.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u0024"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/toggle/on.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u0026"
       ]
     },
     {
