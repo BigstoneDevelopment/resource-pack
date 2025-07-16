@@ -209,17 +209,8 @@
     },
     {
       "type": "bitmap",
-      "file": "bigstone_sandbox:font/button/blank_2.png",
-      "height": 8,
-      "ascent": 8,
-      "chars": [
-        "\u001D"
-      ]
-    },
-    {
-      "type": "bitmap",
       "file": "bigstone_sandbox:font/button/blank.png",
-      "height": 16,
+      "height": 8,
       "ascent": 8,
       "chars": [
         "\u001E"
@@ -228,7 +219,7 @@
     {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/button/blank_long.png",
-      "height": 16,
+      "height": 8,
       "ascent": 8,
       "chars": [
         "\u001F"
