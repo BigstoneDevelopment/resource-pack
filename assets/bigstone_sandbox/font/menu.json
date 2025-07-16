@@ -137,11 +137,20 @@
     },
     {
       "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/admin.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0021"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "bigstone_sandbox:font/button/give_short.png",
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u0028"
+        "\u0022"
       ]
     },
     {
@@ -150,7 +159,25 @@
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u0029"
+        "\u0023"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/toggle/off.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u0024"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/toggle/on.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u0026"
       ]
     },
     {
