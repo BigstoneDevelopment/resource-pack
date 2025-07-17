@@ -53,6 +53,7 @@
   "bigstone_sandbox.dialog_menu.admin_options.global_placement_previews": "Placement Previews",
   "bigstone_sandbox.dialog_menu.admin_options.global_placement_highlight_box": "Placement Highlight Area",
   "bigstone_sandbox.dialog_menu.admin_options.resource_pack_prompt": "Resource Pack Prompt",
+  "bigstone_sandbox.dialog_menu.admin_check": "Admin Check",
 
   "bigstone_sandbox.dialog_menu.bigstone_sandbox_home": "Bigstone Sandbox - Home",
   "bigstone_sandbox.dialog_menu.component_info": "Bigstone Sandbox - Component Info",
@@ -88,6 +89,8 @@
   "bigstone_sandbox.dialog_menu.discord": "Discord",
   "bigstone_sandbox.dialog_menu.github": "Github",
   "bigstone_sandbox.dialog_menu.credits": "Credits",
+  "bigstone_sandbox.dialog_menu.admin_pannel_instructions": "Copy and run the following command to\naccess the admin options",
+  "bigstone_sandbox.dialog_menu.copy_prompt": "Click to copy",
 
   "bigstone_sandbox.component.made_by": "Made by %s",
 
