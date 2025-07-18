@@ -48,12 +48,12 @@
   "bigstone_sandbox.dialog_menu.admin_options.players_can_have_private_components": "Players have Private Components",
   "bigstone_sandbox.dialog_menu.admin_options.bigstone_sandbox_admin_only": "Admin-only Sandbox",
   "bigstone_sandbox.dialog_menu.admin_options.allow_players_to_search": "Players can Search",
+  "bigstone_sandbox.dialog_menu.admin_options.send_command_feedback": "Send Command Feedback",
   "bigstone_sandbox.dialog_menu.admin_options.reload_message": "Reload Message",
   "bigstone_sandbox.dialog_menu.admin_options.import_logs": "Import Logs",
   "bigstone_sandbox.dialog_menu.admin_options.global_placement_previews": "Placement Previews",
   "bigstone_sandbox.dialog_menu.admin_options.global_placement_highlight_box": "Placement Highlight Area",
   "bigstone_sandbox.dialog_menu.admin_options.resource_pack_prompt": "Resource Pack Prompt",
-  "bigstone_sandbox.dialog_menu.admin_check": "Admin Check",
 
   "bigstone_sandbox.dialog_menu.bigstone_sandbox_home": "Bigstone Sandbox - Home",
   "bigstone_sandbox.dialog_menu.component_info": "Bigstone Sandbox - Component Info",
