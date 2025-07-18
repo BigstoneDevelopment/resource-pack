@@ -91,6 +91,13 @@
   "bigstone_sandbox.dialog_menu.credits": "Credits",
   "bigstone_sandbox.dialog_menu.admin_pannel_instructions": "Copy and run the following command to\naccess the admin options",
   "bigstone_sandbox.dialog_menu.copy_prompt": "Click to copy",
+  "bigstone_sandbox.dialog_menu.private": "Private",
+  "bigstone_sandbox.dialog_menu.public": "Public",
+  "bigstone_sandbox.dialog_menu.import_instructions": "Paste exported data into the box below\n\n",
+  "bigstone_sandbox.dialog_menu.import_explanation": "Public components can be seen by everyone\nPrivate components can only be seen by you",
+  "bigstone_sandbox.dialog_menu.import_prompt": "Paste exported data:",
+  "bigstone_sandbox.dialog_menu.import_public": "Import: public",
+  "bigstone_sandbox.dialog_menu.import_private": "Import: private",
 
   "bigstone_sandbox.component.made_by": "Made by %s",
 
@@ -117,5 +124,8 @@
   "bigstone_sandbox.dialog_menu.button.blank_long": "\u001F",
 
   "bigstone_sandbox.dialog_menu.toggle.off": "\u0024",
-  "bigstone_sandbox.dialog_menu.toggle.on": "\u0026"
+  "bigstone_sandbox.dialog_menu.toggle.on": "\u0026",
+
+  "bigstone_sandbox.dialog_menu.icon.public": "\u0027",
+  "bigstone_sandbox.dialog_menu.icon.private": "\u0028"
 }

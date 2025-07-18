@@ -182,6 +182,24 @@
     },
     {
       "type": "bitmap",
+      "file": "bigstone_sandbox:font/icon/public.png",
+      "height": 8,
+      "ascent": 7,
+      "chars": [
+        "\u0027"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/icon/private.png",
+      "height": 8,
+      "ascent": 7,
+      "chars": [
+        "\u0028"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "bigstone_sandbox:font/button/blank.png",
       "height": 8,
       "ascent": 8,
