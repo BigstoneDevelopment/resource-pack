@@ -105,6 +105,7 @@
   "bigstone_sandbox.dialog_menu.import_prompt": "Paste exported data:",
   "bigstone_sandbox.dialog_menu.import_public": "Import: public",
   "bigstone_sandbox.dialog_menu.import_private": "Import: private",
+  "bigstone_sandbox.dialog_menu.version_info": "Versions\ngame: [%1$s], data: [%2$s], assets: [%3$s]",
 
   "bigstone_sandbox.component.made_by": "Made by %s",
 
