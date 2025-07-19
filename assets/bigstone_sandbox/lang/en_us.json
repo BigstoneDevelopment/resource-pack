@@ -25,6 +25,14 @@
   "bigstone_sandbox.dialog_menu.credits.wiki_maintainers": "gingrspacecadet (Founder)\nSpin4team4096\nTheCrazy8",
   "bigstone_sandbox.dialog_menu.credits.attributions": "None",
 
+  "bigstone_sandbox.tellraw_message.title": "Bigstone Sandbox",
+  "bigstone_sandbox.tellraw_message.description": "A simple Bigstone Sandbox",
+  "bigstone_sandbox.tellraw_message.author": "@BigstoneDevelopment - ",
+  "bigstone_sandbox.tellraw_message.click_for_github": "Click for Github",
+  "bigstone_sandbox.tellraw_message.reloaded": "Reloaded Functions, etc..",
+  "bigstone_sandbox.tellraw_message.open_menu": "To open the menu: ",
+  "bigstone_sandbox.tellraw_message.keybind": "Sprint + Sneak",
+
   "bigstone_sandbox.dialog_menu.click_event_help": "Click to open our Github",
 
   "bigstone_sandbox.dialog_menu.devs_subtitle": "Developers",
