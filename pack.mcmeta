@@ -1,7 +1,19 @@
 {
-	"pack": {
-	  "pack_format": 46,
-	  "description": "DESCRIPTION"
-	}
-  }
-  
+    "pack": {
+        "description": [
+            {
+                "text": "ᴀ ʀᴇꜱᴏᴜʀᴄᴇ ᴘᴀᴄᴋ ꜰᴏʀ ʙꜱ",
+                "color": "yellow"
+            },
+            {
+                "text": "\n"
+            },
+            {
+                "text": "@BigstoneDevelopment                   ",
+                "italic": true,
+                "color": "gray"
+            }
+        ],
+        "pack_format": 63
+    }
+}
