@@ -104,12 +104,15 @@
   "bigstone_sandbox.dialog_menu.copy_prompt": "Click to copy",
   "bigstone_sandbox.dialog_menu.private": "Private",
   "bigstone_sandbox.dialog_menu.public": "Public",
-  "bigstone_sandbox.dialog_menu.import_instructions": "Paste exported data into the box below\n\n",
-  "bigstone_sandbox.dialog_menu.import_explanation": "Public components can be seen by everyone\nPrivate components can only be seen by you",
-  "bigstone_sandbox.dialog_menu.import_prompt": "Paste exported data:",
-  "bigstone_sandbox.dialog_menu.import_public": "Import: public",
-  "bigstone_sandbox.dialog_menu.import_private": "Import: private",
+  "bigstone_sandbox.dialog_menu.import_from_hand": "Choose an option to import the selected\nitem from your hotbar",
+  "bigstone_sandbox.dialog_menu.import_prompt": "Paste item data below:",
+  "bigstone_sandbox.dialog_menu.import_public": "Import: Public",
+  "bigstone_sandbox.dialog_menu.import_private": "Import: Private",
+  "bigstone_sandbox.dialog_menu.import_from_item_data": "Import from Item Data",
+  "bigstone_sandbox.dialog_menu.import_private_from_hand": "Import component privately",
+  "bigstone_sandbox.dialog_menu.import_public_from_hand": "Import component publicly",
   "bigstone_sandbox.dialog_menu.version_info": "Versions\ngame: [%1$s], data: [%2$s], assets: [%3$s]",
+  
 
   "bigstone_sandbox.component.made_by": "Made by %s",
 
@@ -118,6 +121,7 @@
   "bigstone_sandbox.dialog_menu.background.middle": "\u0003",
   "bigstone_sandbox.dialog_menu.background.home": "\u0004",
   "bigstone_sandbox.dialog_menu.background.button_box": "\u0005",
+  "bigstone_sandbox.dialog_menu.background.import": "\u0006",
 
   "bigstone_sandbox.dialog_menu.button.delete": "\u0011",
   "bigstone_sandbox.dialog_menu.button.edit": "\u0012",
@@ -129,7 +133,8 @@
   "bigstone_sandbox.dialog_menu.button.back": "\u0018",
   "bigstone_sandbox.dialog_menu.button.search": "\u0019",
   "bigstone_sandbox.dialog_menu.button.home": "\u0020",
-  "bigstone_sandbox.dialog_menu.button.admin": "\u0021",
+  "bigstone_sandbox.dialog_menu.button.admin_check": "\u0021",
+  "bigstone_sandbox.dialog_menu.button.admin_mode": "\u0029",
   "bigstone_sandbox.dialog_menu.button.give_short": "\u0022",
   "bigstone_sandbox.dialog_menu.button.info_short": "\u0023",
   "bigstone_sandbox.dialog_menu.button.blank": "\u001E",
