@@ -45,6 +45,15 @@
         "\u0005"
       ]
     },
+        {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/import.png",
+      "height": 256,
+      "ascent": 8,
+      "chars": [
+        "\u0006"
+      ]
+    },
     {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/button/delete.png",
@@ -137,11 +146,20 @@
     },
     {
       "type": "bitmap",
-      "file": "bigstone_sandbox:font/button/admin.png",
+      "file": "bigstone_sandbox:font/button/admin_check.png",
       "height": 16,
       "ascent": 8,
       "chars": [
         "\u0021"
+      ]
+    },
+        {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/admin_mode.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0029"
       ]
     },
     {
