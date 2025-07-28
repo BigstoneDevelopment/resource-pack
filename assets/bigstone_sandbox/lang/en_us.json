@@ -33,6 +33,8 @@
   "bigstone_sandbox.tellraw_message.open_menu": "To open the menu: ",
   "bigstone_sandbox.tellraw_message.keybind": "%1$s + %2$s",
   "bigstone_sandbox.tellraw_message.unsupported_version": "This version isn't supported!",
+  "bigstone_sandbox.tellraw_message.cleaning_up": "Cleaning up. Please wait...",
+  "bigstone_sandbox.tellraw_message.uninstalled": "Done! You can remove the datapack now.",
 
   "bigstone_sandbox.dialog_menu.click_event_help": "Click to open our Github",
 
