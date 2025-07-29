@@ -86,7 +86,9 @@
   "bigstone_sandbox.dialog_menu.port_south": "South: %s",
   "bigstone_sandbox.dialog_menu.port_east": "East: %s",
   "bigstone_sandbox.dialog_menu.port_west": "West: %s",
+  "bigstone_sandbox.dialog_menu.port_delimiter": ", ",
   "bigstone_sandbox.dialog_menu.tags": "Tags: %s",
+  "bigstone_sandbox.dialog_menu.tag_delimiter": ", ",
   "bigstone_sandbox.dialog_menu.delete": "Delete",
   "bigstone_sandbox.dialog_menu.edit": "Edit",
   "bigstone_sandbox.dialog_menu.export": "Export",
@@ -115,7 +117,6 @@
   "bigstone_sandbox.dialog_menu.import_private_from_hand": "Import component privately",
   "bigstone_sandbox.dialog_menu.import_public_from_hand": "Import component publicly",
   "bigstone_sandbox.dialog_menu.version_info": "Versions\ngame: [%1$s], data: [%2$s], assets: [%3$s]",
-  
 
   "bigstone_sandbox.component.made_by": "Made by %s",
 
@@ -152,5 +153,4 @@
 
   "bigstone_sandbox.dialog_menu.icon.public": "\u0027",
   "bigstone_sandbox.dialog_menu.icon.private": "\u0028"
-
 }
