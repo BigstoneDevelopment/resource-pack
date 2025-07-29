@@ -138,12 +138,17 @@
   "bigstone_sandbox.dialog_menu.button.admin_mode": "\u0029",
   "bigstone_sandbox.dialog_menu.button.give_short": "\u0022",
   "bigstone_sandbox.dialog_menu.button.info_short": "\u0023",
+  "bigstone_sandbox.dialog_menu.button.github": "\u0030",
+  "bigstone_sandbox.dialog_menu.button.discord": "\u0031",
+  "bigstone_sandbox.dialog_menu.button.wiki": "\u0032",
+  "bigstone_sandbox.dialog_menu.button.blank_shadowless": "\u001D",
   "bigstone_sandbox.dialog_menu.button.blank": "\u001E",
   "bigstone_sandbox.dialog_menu.button.blank_long": "\u001F",
-
+  
   "bigstone_sandbox.dialog_menu.toggle.off": "\u0024",
   "bigstone_sandbox.dialog_menu.toggle.on": "\u0026",
 
   "bigstone_sandbox.dialog_menu.icon.public": "\u0027",
   "bigstone_sandbox.dialog_menu.icon.private": "\u0028"
+
 }
