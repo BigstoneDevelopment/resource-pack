@@ -209,11 +209,47 @@
     },
     {
       "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/github.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0030"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/discord.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0031"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/wiki.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0032"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "bigstone_sandbox:font/icon/private.png",
       "height": 8,
       "ascent": 7,
       "chars": [
         "\u0028"
+      ]
+    },
+        {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/blank_shadowless.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u001D"
       ]
     },
     {

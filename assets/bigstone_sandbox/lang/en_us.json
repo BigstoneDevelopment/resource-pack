@@ -86,7 +86,9 @@
   "bigstone_sandbox.dialog_menu.port_south": "South: %s",
   "bigstone_sandbox.dialog_menu.port_east": "East: %s",
   "bigstone_sandbox.dialog_menu.port_west": "West: %s",
+  "bigstone_sandbox.dialog_menu.port_delimiter": ", ",
   "bigstone_sandbox.dialog_menu.tags": "Tags: %s",
+  "bigstone_sandbox.dialog_menu.tag_delimiter": ", ",
   "bigstone_sandbox.dialog_menu.delete": "Delete",
   "bigstone_sandbox.dialog_menu.edit": "Edit",
   "bigstone_sandbox.dialog_menu.export": "Export",
@@ -115,7 +117,6 @@
   "bigstone_sandbox.dialog_menu.import_private_from_hand": "Import component privately",
   "bigstone_sandbox.dialog_menu.import_public_from_hand": "Import component publicly",
   "bigstone_sandbox.dialog_menu.version_info": "Versions\ngame: [%1$s], data: [%2$s], assets: [%3$s]",
-  
 
   "bigstone_sandbox.component.made_by": "Made by %s",
 
@@ -140,12 +141,21 @@
   "bigstone_sandbox.dialog_menu.button.admin_mode": "\u0029",
   "bigstone_sandbox.dialog_menu.button.give_short": "\u0022",
   "bigstone_sandbox.dialog_menu.button.info_short": "\u0023",
+  "bigstone_sandbox.dialog_menu.button.github": "\u0030",
+  "bigstone_sandbox.dialog_menu.button.discord": "\u0031",
+  "bigstone_sandbox.dialog_menu.button.wiki": "\u0032",
+  "bigstone_sandbox.dialog_menu.button.blank_shadowless": "\u001D",
   "bigstone_sandbox.dialog_menu.button.blank": "\u001E",
   "bigstone_sandbox.dialog_menu.button.blank_long": "\u001F",
-
+  
   "bigstone_sandbox.dialog_menu.toggle.off": "\u0024",
   "bigstone_sandbox.dialog_menu.toggle.on": "\u0026",
 
   "bigstone_sandbox.dialog_menu.icon.public": "\u0027",
-  "bigstone_sandbox.dialog_menu.icon.private": "\u0028"
+  "bigstone_sandbox.dialog_menu.icon.private": "\u0028",
+
+  "commands.trigger.failed.invalid": "You can only trigger objectives that are 'trigger' type",
+  "commands.trigger.failed.unprimed": "You cannot trigger this objective yet",
+  "commands.trigger.set.success": "",
+  "commands.trigger.simple.success": ""
 }
