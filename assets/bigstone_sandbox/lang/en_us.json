@@ -70,6 +70,7 @@
   "bigstone_sandbox.dialog_menu.admin_options.global_placement_highlight_box": "Highlight placement area %s",
   "bigstone_sandbox.dialog_menu.admin_options.instant_snap": "Snappy area highlight %s",
 
+  "bigstone_sandbox.dialog_menu.bigstone_sandbox": "Bigstone Sandbox",
   "bigstone_sandbox.dialog_menu.bigstone_sandbox_home": "Bigstone Sandbox - Home",
   "bigstone_sandbox.dialog_menu.component_info": "Bigstone Sandbox - Component Info",
   "bigstone_sandbox.dialog_menu.components_menu": "Bigstone Sandbox - Components Menu",
@@ -154,8 +155,8 @@
   "bigstone_sandbox.dialog_menu.icon.public": "\u0027",
   "bigstone_sandbox.dialog_menu.icon.private": "\u0028",
 
-  "commands.trigger.failed.invalid": "You can only trigger objectives that are 'trigger' type",
-  "commands.trigger.failed.unprimed": "You cannot trigger this objective yet",
   "commands.trigger.set.success": "",
-  "commands.trigger.simple.success": ""
+  "commands.trigger.simple.success": "",
+
+  "generator.bigstone_sandbox.bigstone_ready": "Bigstone Ready"
 }
