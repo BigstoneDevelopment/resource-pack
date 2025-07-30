@@ -152,5 +152,10 @@
   "bigstone_sandbox.dialog_menu.toggle.on": "\u0026",
 
   "bigstone_sandbox.dialog_menu.icon.public": "\u0027",
-  "bigstone_sandbox.dialog_menu.icon.private": "\u0028"
+  "bigstone_sandbox.dialog_menu.icon.private": "\u0028",
+
+  "commands.trigger.failed.invalid": "You can only trigger objectives that are 'trigger' type",
+  "commands.trigger.failed.unprimed": "You cannot trigger this objective yet",
+  "commands.trigger.set.success": "",
+  "commands.trigger.simple.success": ""
 }
