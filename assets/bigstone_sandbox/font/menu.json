@@ -1,0 +1,274 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/top.png",
+      "height": 256,
+      "ascent": 0,
+      "chars": [
+        "\u0001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/bottom.png",
+      "height": 8,
+      "ascent": -4,
+      "chars": [
+        "\u0002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/middle.png",
+      "height": 256,
+      "ascent": 0,
+      "chars": [
+        "\u0003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/home.png",
+      "height": 256,
+      "ascent": 8,
+      "chars": [
+        "\u0004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/button_box.png",
+      "height": 36,
+      "ascent": 0,
+      "chars": [
+        "\u0005"
+      ]
+    },
+        {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/import.png",
+      "height": 256,
+      "ascent": 8,
+      "chars": [
+        "\u0006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/delete.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/edit.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0012"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/export.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0013"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/filter.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0014"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/give_long.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0015"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/import.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0016"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/close_menu.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0017"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/back.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0018"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/search.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0019"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/home.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0020"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/admin_check.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0021"
+      ]
+    },
+        {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/admin_mode.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0029"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/give_short.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u0022"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/info_short.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u0023"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/toggle/off.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u0024"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/toggle/on.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u0026"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/icon/public.png",
+      "height": 8,
+      "ascent": 7,
+      "chars": [
+        "\u0027"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/github.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0030"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/discord.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0031"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/wiki.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0032"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/icon/private.png",
+      "height": 8,
+      "ascent": 7,
+      "chars": [
+        "\u0028"
+      ]
+    },
+        {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/blank_shadowless.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u001D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/blank.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u001E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/blank_long.png",
+      "height": 8,
+      "ascent": 8,
+      "chars": [
+        "\u001F"
+      ]
+    }
+  ]
+}
