@@ -110,6 +110,7 @@
   "bigstone_sandbox.dialog_menu.copy_prompt": "Click to copy",
   "bigstone_sandbox.dialog_menu.private": "Private",
   "bigstone_sandbox.dialog_menu.public": "Public",
+  "bigstone_sandbox.dialog_menu.saved": "Saved",
   "bigstone_sandbox.dialog_menu.import_from_hand": "Choose an option to import the selected\nitem from your hotbar",
   "bigstone_sandbox.dialog_menu.import_prompt": "Paste item data below:",
   "bigstone_sandbox.dialog_menu.import_public": "Import: Public",
@@ -154,6 +155,7 @@
 
   "bigstone_sandbox.dialog_menu.icon.public": "\u0027",
   "bigstone_sandbox.dialog_menu.icon.private": "\u0028",
+  "bigstone_sandbox.dialog_menu.icon.saved": "\u0033",
 
   "commands.trigger.set.success": "",
   "commands.trigger.simple.success": "",

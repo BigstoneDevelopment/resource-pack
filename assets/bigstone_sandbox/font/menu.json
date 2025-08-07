@@ -207,6 +207,15 @@
         "\u0027"
       ]
     },
+        {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/icon/saved.png",
+      "height": 8,
+      "ascent": 7,
+      "chars": [
+        "\u0033"
+      ]
+    },
     {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/button/github.png",
