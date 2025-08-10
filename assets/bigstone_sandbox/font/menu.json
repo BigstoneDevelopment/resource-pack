@@ -45,13 +45,22 @@
         "\u0005"
       ]
     },
-        {
+    {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/background/import.png",
       "height": 256,
       "ascent": 8,
       "chars": [
         "\u0006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/section_break.png",
+      "height": 8,
+      "ascent": -11,
+      "chars": [
+        "\u0007"
       ]
     },
     {
@@ -153,7 +162,7 @@
         "\u0021"
       ]
     },
-        {
+    {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/button/admin_mode.png",
       "height": 16,
@@ -202,16 +211,16 @@
       "type": "bitmap",
       "file": "bigstone_sandbox:font/icon/public.png",
       "height": 8,
-      "ascent": 7,
+      "ascent": 8,
       "chars": [
         "\u0027"
       ]
     },
-        {
+    {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/icon/saved.png",
       "height": 8,
-      "ascent": 7,
+      "ascent": 8,
       "chars": [
         "\u0033"
       ]
@@ -247,12 +256,30 @@
       "type": "bitmap",
       "file": "bigstone_sandbox:font/icon/private.png",
       "height": 8,
-      "ascent": 7,
+      "ascent": 8,
       "chars": [
         "\u0028"
       ]
     },
-        {
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/background.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0034"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/tag.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0035"
+      ]
+    },
+    {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/button/blank_shadowless.png",
       "height": 8,

@@ -75,6 +75,7 @@
   "bigstone_sandbox.dialog_menu.component_info": "Bigstone Sandbox - Component Info",
   "bigstone_sandbox.dialog_menu.components_menu": "Bigstone Sandbox - Components Menu",
   "bigstone_sandbox.dialog_menu.import_component": "Bigstone Sandbox - Import Component",
+  "bigstone_sandbox.dialog_menu.filter_components": "Bigstone Sandbox - Filter Components",
   "bigstone_sandbox.dialog_menu.options_menu": "Bigstone Sandbox - Options",
   "bigstone_sandbox.dialog_menu.admin_options_menu": "Bigstone Sandbox - Admin Options",
   "bigstone_sandbox.dialog_menu.credits_menu": "Bigstone Sandbox - Credits",
@@ -94,6 +95,7 @@
   "bigstone_sandbox.dialog_menu.edit": "Edit",
   "bigstone_sandbox.dialog_menu.export": "Export",
   "bigstone_sandbox.dialog_menu.filter": "Filter",
+  "bigstone_sandbox.dialog_menu.apply_filter": "Apply Filter",
   "bigstone_sandbox.dialog_menu.give": "Add to inventory",
   "bigstone_sandbox.dialog_menu.import": "Import",
   "bigstone_sandbox.dialog_menu.back": "Back",
@@ -119,6 +121,8 @@
   "bigstone_sandbox.dialog_menu.import_private_from_hand": "Import component privately",
   "bigstone_sandbox.dialog_menu.import_public_from_hand": "Import component publicly",
   "bigstone_sandbox.dialog_menu.version_info": "Versions\ngame: [%1$s], data: [%2$s], assets: [%3$s]",
+  "bigstone_sandbox.dialog_menu.included_filters": "Included filters",
+  "bigstone_sandbox.dialog_menu.excluded_filters": "Excluded filters",
 
   "bigstone_sandbox.component.made_by": "Made by %s",
 
@@ -128,6 +132,7 @@
   "bigstone_sandbox.dialog_menu.background.home": "\u0004",
   "bigstone_sandbox.dialog_menu.background.button_box": "\u0005",
   "bigstone_sandbox.dialog_menu.background.import": "\u0006",
+  "bigstone_sandbox.dialog_menu.background.section_break": "\u0007",
 
   "bigstone_sandbox.dialog_menu.button.delete": "\u0011",
   "bigstone_sandbox.dialog_menu.button.edit": "\u0012",
@@ -149,6 +154,8 @@
   "bigstone_sandbox.dialog_menu.button.blank_shadowless": "\u001D",
   "bigstone_sandbox.dialog_menu.button.blank": "\u001E",
   "bigstone_sandbox.dialog_menu.button.blank_long": "\u001F",
+  "bigstone_sandbox.dialog_menu.button.background": "\u0034",
+  "bigstone_sandbox.dialog_menu.button.tag": "\u0035",
   
   "bigstone_sandbox.dialog_menu.toggle.off": "\u0024",
   "bigstone_sandbox.dialog_menu.toggle.on": "\u0026",
