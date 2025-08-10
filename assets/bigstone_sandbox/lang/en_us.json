@@ -89,7 +89,7 @@
   "bigstone_sandbox.dialog_menu.port_east": "East: %s",
   "bigstone_sandbox.dialog_menu.port_west": "West: %s",
   "bigstone_sandbox.dialog_menu.port_delimiter": ", ",
-  "bigstone_sandbox.dialog_menu.tags": "Tags: %s",
+  "bigstone_sandbox.dialog_menu.tags_list": "Tags: %s",
   "bigstone_sandbox.dialog_menu.tag_delimiter": ", ",
   "bigstone_sandbox.dialog_menu.delete": "Delete",
   "bigstone_sandbox.dialog_menu.edit": "Edit",
@@ -123,6 +123,11 @@
   "bigstone_sandbox.dialog_menu.version_info": "Versions\ngame: [%1$s], data: [%2$s], assets: [%3$s]",
   "bigstone_sandbox.dialog_menu.included_filters": "Included filters",
   "bigstone_sandbox.dialog_menu.excluded_filters": "Excluded filters",
+  "bigstone_sandbox.dialog_menu.available_filters": "",
+  "bigstone_sandbox.dialog_menu.tags": "Tags",
+  "bigstone_sandbox.dialog_menu.ports": "Ports",
+  "bigstone_sandbox.dialog_menu.creators": "Creators",
+  
 
   "bigstone_sandbox.component.made_by": "Made by %s",
 
@@ -133,6 +138,7 @@
   "bigstone_sandbox.dialog_menu.background.button_box": "\u0005",
   "bigstone_sandbox.dialog_menu.background.import": "\u0006",
   "bigstone_sandbox.dialog_menu.background.section_break": "\u0007",
+  "bigstone_sandbox.dialog_menu.background.section_break_2": "\u0008",
 
   "bigstone_sandbox.dialog_menu.button.delete": "\u0011",
   "bigstone_sandbox.dialog_menu.button.edit": "\u0012",
@@ -156,6 +162,9 @@
   "bigstone_sandbox.dialog_menu.button.blank_long": "\u001F",
   "bigstone_sandbox.dialog_menu.button.background": "\u0034",
   "bigstone_sandbox.dialog_menu.button.tag": "\u0035",
+  "bigstone_sandbox.dialog_menu.button.creator": "\u0036",
+  "bigstone_sandbox.dialog_menu.button.port": "\u0037",
+  "bigstone_sandbox.dialog_menu.button.selected_tab": "\u0038",
   
   "bigstone_sandbox.dialog_menu.toggle.off": "\u0024",
   "bigstone_sandbox.dialog_menu.toggle.on": "\u0026",

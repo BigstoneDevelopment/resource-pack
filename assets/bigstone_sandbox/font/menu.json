@@ -65,6 +65,15 @@
     },
     {
       "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/section_break.png",
+      "height": 8,
+      "ascent": -19,
+      "chars": [
+        "\u0008"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "bigstone_sandbox:font/button/delete.png",
       "height": 16,
       "ascent": 8,
@@ -277,6 +286,33 @@
       "ascent": 8,
       "chars": [
         "\u0035"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/creator.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0036"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/port.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0037"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/selected_tab.png",
+      "height": 19,
+      "ascent": 8,
+      "chars": [
+        "\u0038"
       ]
     },
     {
