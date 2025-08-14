@@ -95,7 +95,7 @@
   "bigstone_sandbox.dialog_menu.edit": "Edit",
   "bigstone_sandbox.dialog_menu.export": "Export",
   "bigstone_sandbox.dialog_menu.filter": "Filter",
-  "bigstone_sandbox.dialog_menu.apply_filter": "Apply Filter",
+  "bigstone_sandbox.dialog_menu.reset_filters": "Reset Filters",
   "bigstone_sandbox.dialog_menu.give": "Add to inventory",
   "bigstone_sandbox.dialog_menu.import": "Import",
   "bigstone_sandbox.dialog_menu.back": "Back",
@@ -165,6 +165,7 @@
   "bigstone_sandbox.dialog_menu.button.creator": "\u0036",
   "bigstone_sandbox.dialog_menu.button.port": "\u0037",
   "bigstone_sandbox.dialog_menu.button.selected_tab": "\u0038",
+  "bigstone_sandbox.dialog_menu.button.reset": "\u0039",
   
   "bigstone_sandbox.dialog_menu.toggle.off": "\u0024",
   "bigstone_sandbox.dialog_menu.toggle.on": "\u0026",

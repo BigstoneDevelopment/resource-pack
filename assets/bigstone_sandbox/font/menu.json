@@ -315,6 +315,15 @@
         "\u0038"
       ]
     },
+        {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/reset.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0039"
+      ]
+    },
     {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/button/blank_shadowless.png",
