@@ -1,17 +1,16 @@
-Bigstone Sandbox Resource Pack
+Bigstone Sandbox Datapack
 A datapack that allows bigstoners to build with ease without needing to install mods!
 
 The datapack is mainly developed by BigstoneDevelopment
 
 
 THE WIKI:
-http://wiki.bigstone.ovh
+http://wiki.bigstone.dev
 
 THE REPO:
-https://github.com/BigstoneDevelopment/resource-pack
+https://github.com/BigstoneDevelopment/datapack
 
 
 © Copyright 2025 BigstoneDevelopment
-This datapack was originally made by BigstoneDevelopment
-You Must Follow the license to use this datapack.
-NOTE: YOU HAVE TO FOLLOW IT ANYWAYS
+
+Made by Arttale, Xoliks and Huckle
