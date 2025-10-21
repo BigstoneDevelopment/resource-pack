@@ -121,7 +121,7 @@
   "bigstone_sandbox.dialog_menu.import_from_item_data": "Import from Item Data",
   "bigstone_sandbox.dialog_menu.import_private_from_hand": "Import component privately",
   "bigstone_sandbox.dialog_menu.import_public_from_hand": "Import component publicly",
-  "bigstone_sandbox.dialog_menu.version_info": "Versions\ngame: [%1$s], data: [%2$s], assets: [%3$s]",
+  "bigstone_sandbox.dialog_menu.version_info": "Versions\nDP Format: %1$s, Datapack: %2$s, Assets: %3$s",
   "bigstone_sandbox.dialog_menu.included_filters": "Included filters",
   "bigstone_sandbox.dialog_menu.excluded_filters": "Excluded filters",
   "bigstone_sandbox.dialog_menu.available_filters": "",
