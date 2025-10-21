@@ -33,6 +33,7 @@
   "bigstone_sandbox.tellraw_message.open_menu": "To open the menu: ",
   "bigstone_sandbox.tellraw_message.keybind": "%1$s + %2$s",
   "bigstone_sandbox.tellraw_message.unsupported_version": "This version isn't supported!",
+  "bigstone_sandbox.tellraw_message.maxCommandChainLength_warning": "Warning: The gamerule maxCommandChainLength needs to be greater than 10000!",
   "bigstone_sandbox.tellraw_message.cleaning_up": "Cleaning up. Please wait...",
   "bigstone_sandbox.tellraw_message.uninstalled": "Done! You can remove the datapack now.",
 
@@ -173,9 +174,6 @@
   "bigstone_sandbox.dialog_menu.icon.public": "\u0027",
   "bigstone_sandbox.dialog_menu.icon.private": "\u0028",
   "bigstone_sandbox.dialog_menu.icon.saved": "\u0033",
-
-  "commands.trigger.set.success": "",
-  "commands.trigger.simple.success": "",
 
   "generator.bigstone_sandbox.bigstone_ready": "Bigstone Ready"
 }
