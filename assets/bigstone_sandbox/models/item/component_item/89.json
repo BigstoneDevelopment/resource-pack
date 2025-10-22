@@ -1,0 +1,6 @@
+{
+  "parent": "bigstone_sandbox:item/component_item_base",
+  "textures": {
+    "layer0": "bigstone_sandbox:item/component_base/89"
+  }
+}
