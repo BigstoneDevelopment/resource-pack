@@ -37,7 +37,7 @@
   "bigstone_sandbox.tellraw_message.public_import_disabled": "Public Importing has been disabled by an OP.",
   "bigstone_sandbox.tellraw_message.import_list_stored": "Import list stored in temporary data.",
   "bigstone_sandbox.tellraw_message.import_list_cleanup": "Cleaning up temporary import data..",
-  "bigstone_sandbox.tellraw_message.maxCommandChainLength_warning": "Warning: The gamerule maxCommandChainLength needs to be greater than 10000!",
+  "bigstone_sandbox.tellraw_message.maxCommandChainLength_warning": "Warning: The gamerule maxCommandChainLength needs to be greater than 65000!",
   "bigstone_sandbox.tellraw_message.cleaning_up": "Cleaning up. Please wait...",
   "bigstone_sandbox.tellraw_message.uninstalled": "Done! You can remove the datapack now.",
   "bigstone_sandbox.tellraw_message.private_components_disabled": "Private components has been disabled by an OP.",
