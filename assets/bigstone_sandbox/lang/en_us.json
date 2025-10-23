@@ -81,6 +81,7 @@
   "bigstone_sandbox.dialog_menu.component_info": "Bigstone Sandbox - Component Info",
   "bigstone_sandbox.dialog_menu.components_menu": "Bigstone Sandbox - Components Menu",
   "bigstone_sandbox.dialog_menu.import_component": "Bigstone Sandbox - Import Component",
+  "bigstone_sandbox.dialog_menu.export_component": "Bigstone Sandbox - Export Component",
   "bigstone_sandbox.dialog_menu.filter_components": "Bigstone Sandbox - Filter Components",
   "bigstone_sandbox.dialog_menu.options_menu": "Bigstone Sandbox - Options",
   "bigstone_sandbox.dialog_menu.admin_options_menu": "Bigstone Sandbox - Admin Options",
