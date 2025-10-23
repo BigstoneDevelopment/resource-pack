@@ -99,6 +99,7 @@
   "bigstone_sandbox.dialog_menu.tags_list": "Tags: %s",
   "bigstone_sandbox.dialog_menu.tag_delimiter": ", ",
   "bigstone_sandbox.dialog_menu.delete": "Delete",
+  "bigstone_sandbox.dialog_menu.admin_delete": "Admin Delete",
   "bigstone_sandbox.dialog_menu.edit": "Edit",
   "bigstone_sandbox.dialog_menu.export": "Export",
   "bigstone_sandbox.dialog_menu.filter": "Filter",
@@ -147,6 +148,7 @@
   "bigstone_sandbox.dialog_menu.background.section_break": "\u0007",
   "bigstone_sandbox.dialog_menu.background.section_break_2": "\u0008",
 
+  "bigstone_sandbox.dialog_menu.button.admin_delete": "\u0010",
   "bigstone_sandbox.dialog_menu.button.delete": "\u0011",
   "bigstone_sandbox.dialog_menu.button.edit": "\u0012",
   "bigstone_sandbox.dialog_menu.button.export": "\u0013",
