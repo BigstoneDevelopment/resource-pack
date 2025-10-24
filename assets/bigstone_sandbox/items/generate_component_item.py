@@ -7,7 +7,7 @@ output = {
     }
 }
 
-for i in range(1536):  # 0 → 1536 inclusive
+for i in range(1535):  # 0 → 1536 inclusive
     index_str = f"{i:04d}"  # 0000, 0001, ..., 1536
     output["model"]["models"].append({
         "type": "minecraft:condition",
