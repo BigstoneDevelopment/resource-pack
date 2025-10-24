@@ -1,10 +1,10 @@
 {
-  "parent": "bigstone_sandbox:item/tri_left",
+  "parent": "bigstone_sandbox:item/tri_right",
   "display": {
     "thirdperson_righthand": {
       "translation": [
-        -6.6000000000000005,
-        9.12,
+        3.3000000000000003,
+        4.49,
         4.25
       ],
       "scale": [
@@ -15,8 +15,8 @@
     },
     "thirdperson_lefthand": {
       "translation": [
-        -6.6000000000000005,
-        9.12,
+        3.3000000000000003,
+        4.49,
         4.25
       ],
       "scale": [
@@ -27,8 +27,8 @@
     },
     "ground": {
       "translation": [
-        -1.75,
-        10.12,
+        7.25,
+        6.24,
         -0.5
       ],
       "rotation": [
@@ -44,9 +44,9 @@
     },
     "head": {
       "translation": [
-        -10.08,
-        17.82,
-        0
+        5.0401,
+        8.84,
+        0.0001
       ],
       "scale": [
         0.84,
@@ -56,8 +56,8 @@
     },
     "fixed": {
       "translation": [
-        -12,
-        22.62,
+        -9.75,
+        14.44,
         -8.1
       ],
       "rotation": [
@@ -73,8 +73,8 @@
     },
     "on_shelf": {
       "translation": [
-        -12,
-        22.62,
+        6.0,
+        11.24,
         5.75
       ],
       "scale": [

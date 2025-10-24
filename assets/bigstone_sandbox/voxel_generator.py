@@ -4,6 +4,8 @@ import sys
 import copy
 
 n = 1535
+tileSize = 0.3125
+tileScale = 0.5
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 item_display_script_ref = os.path.join(script_dir, 'models', 'item', "item_display_script_ref.json")
@@ -40,26 +42,6 @@ for i in range(n):
             col_height = base_height + col_index * 2       # +2 per column
             next_col_start += col_height                   # grow the boundary forward
 
-        parent_index = "tri_left" if ((i + inv_col_index) % 2 == 0) else "tri_right"
-
-        data = {
-            "parent": f"bigstone_sandbox:item/{parent_index}"
-        }
-        for section, props in display_copy.items():
-            if "translation" in props and "scale" in props:
-                # i % col_height only makes sense while still in this column
-                local_i = i - (next_col_start - col_height)
-                props["translation"][1] += props["scale"][1] * 0.625 * local_i-col_index/1.625
-                props["translation"][1] = max(min(round(props["translation"][1], 2), 80), -80)
-
-                props["translation"][0] -= props["scale"][0] * col_index
-    else:
-        if i >= next_col_start:
-            col_index += 1
-            inv_col_index -= 1
-            col_height = base_height + inv_col_index * 2       # -2 per column
-            next_col_start += col_height                   # grow the boundary forward
-
         parent_index = "tri_left" if ((i + inv_col_index) % 2 != 0) else "tri_right"
 
         data = {
@@ -69,10 +51,30 @@ for i in range(n):
             if "translation" in props and "scale" in props:
                 # i % col_height only makes sense while still in this column
                 local_i = i - (next_col_start - col_height)
-                props["translation"][1] += props["scale"][1] * ((0.625 * local_i-inv_col_index/1.625)-0.625)
+                props["translation"][1] += props["scale"][1] * tileSize * local_i-col_index/(3.1875)
                 props["translation"][1] = max(min(round(props["translation"][1], 2), 80), -80)
 
-                props["translation"][0] -= props["scale"][0] * col_index
+                props["translation"][0] += props["scale"][0] * col_index*tileScale
+    else:
+        if i >= next_col_start:
+            col_index += 1
+            inv_col_index -= 1
+            col_height = base_height + inv_col_index * 2       # -2 per column
+            next_col_start += col_height                   # grow the boundary forward
+
+        parent_index = "tri_left" if ((i + inv_col_index) % 2 == 0) else "tri_right"
+
+        data = {
+            "parent": f"bigstone_sandbox:item/{parent_index}"
+        }
+        for section, props in display_copy.items():
+            if "translation" in props and "scale" in props:
+                # i % col_height only makes sense while still in this column
+                local_i = i - (next_col_start - col_height)
+                props["translation"][1] += props["scale"][1] * ((tileSize * local_i-inv_col_index/(3.1875))-tileSize)
+                props["translation"][1] = max(min(round(props["translation"][1], 2), 80), -80)
+
+                props["translation"][0] += props["scale"][0] * col_index*tileScale
 
     data["display"] = display_copy
     data["gui_light"] = item_display_base.get("gui_light")

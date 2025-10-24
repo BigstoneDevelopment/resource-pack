@@ -1,5 +1,5 @@
 {
-  "parent": "bigstone_sandbox:item/tri_left",
+  "parent": "bigstone_sandbox:item/tri_right",
   "display": {
     "thirdperson_righthand": {
       "translation": [
@@ -44,9 +44,9 @@
     },
     "head": {
       "translation": [
+        0.0001,
         0.0,
-        0.0,
-        0
+        0.0001
       ],
       "scale": [
         0.84,
@@ -56,8 +56,8 @@
     },
     "fixed": {
       "translation": [
-        0,
-        0.0,
+        -15.75,
+        3.2,
         -8.1
       ],
       "rotation": [
@@ -73,7 +73,7 @@
     },
     "on_shelf": {
       "translation": [
-        0,
+        0.0,
         0.0,
         5.75
       ],
