@@ -81,6 +81,7 @@
   "bigstone_sandbox.dialog_menu.component_info": "Bigstone Sandbox - Component Info",
   "bigstone_sandbox.dialog_menu.components_menu": "Bigstone Sandbox - Components Menu",
   "bigstone_sandbox.dialog_menu.import_component": "Bigstone Sandbox - Import Component",
+  "bigstone_sandbox.dialog_menu.export_component": "Bigstone Sandbox - Export Component",
   "bigstone_sandbox.dialog_menu.filter_components": "Bigstone Sandbox - Filter Components",
   "bigstone_sandbox.dialog_menu.options_menu": "Bigstone Sandbox - Options",
   "bigstone_sandbox.dialog_menu.admin_options_menu": "Bigstone Sandbox - Admin Options",
@@ -98,6 +99,7 @@
   "bigstone_sandbox.dialog_menu.tags_list": "Tags: %s",
   "bigstone_sandbox.dialog_menu.tag_delimiter": ", ",
   "bigstone_sandbox.dialog_menu.delete": "Delete",
+  "bigstone_sandbox.dialog_menu.admin_delete": "Admin Delete",
   "bigstone_sandbox.dialog_menu.edit": "Edit",
   "bigstone_sandbox.dialog_menu.export": "Export",
   "bigstone_sandbox.dialog_menu.filter": "Filter",
@@ -133,6 +135,9 @@
   "bigstone_sandbox.dialog_menu.tags": "Tags",
   "bigstone_sandbox.dialog_menu.ports": "Ports",
   "bigstone_sandbox.dialog_menu.creators": "Creators",
+  "bigstone_sandbox.dialog_menu.previous_page": "Previous Page",
+  "bigstone_sandbox.dialog_menu.next_page": "Next Page",
+  "bigstone_sandbox.dialog_menu.current_page": "Page %1$s/%2$s",
   
 
   "bigstone_sandbox.component.made_by": "Made by %s",
@@ -145,7 +150,9 @@
   "bigstone_sandbox.dialog_menu.background.import": "\u0006",
   "bigstone_sandbox.dialog_menu.background.section_break": "\u0007",
   "bigstone_sandbox.dialog_menu.background.section_break_2": "\u0008",
+  "bigstone_sandbox.dialog_menu.background.button_box_large": "\u0009",
 
+  "bigstone_sandbox.dialog_menu.button.admin_delete": "\u0010",
   "bigstone_sandbox.dialog_menu.button.delete": "\u0011",
   "bigstone_sandbox.dialog_menu.button.edit": "\u0012",
   "bigstone_sandbox.dialog_menu.button.export": "\u0013",
@@ -172,6 +179,8 @@
   "bigstone_sandbox.dialog_menu.button.port": "\u0037",
   "bigstone_sandbox.dialog_menu.button.selected_tab": "\u0038",
   "bigstone_sandbox.dialog_menu.button.reset": "\u0039",
+  "bigstone_sandbox.dialog_menu.button.previous_page": "\u0040",
+  "bigstone_sandbox.dialog_menu.button.next_page": "\u0041",
   
   "bigstone_sandbox.dialog_menu.toggle.off": "\u0024",
   "bigstone_sandbox.dialog_menu.toggle.on": "\u0026",
