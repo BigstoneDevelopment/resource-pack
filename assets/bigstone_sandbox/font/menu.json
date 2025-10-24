@@ -83,6 +83,15 @@
     },
     {
       "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/admin_delete.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0010"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "bigstone_sandbox:font/button/delete.png",
       "height": 16,
       "ascent": 8,
