@@ -47,6 +47,15 @@
     },
     {
       "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/button_box_large.png",
+      "height": 44,
+      "ascent": 0,
+      "chars": [
+        "\u0009"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "bigstone_sandbox:font/background/import.png",
       "height": 256,
       "ascent": 8,
@@ -315,13 +324,31 @@
         "\u0038"
       ]
     },
-        {
+    {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/button/reset.png",
       "height": 16,
       "ascent": 8,
       "chars": [
         "\u0039"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/previous_page.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0040"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/next_page.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\u0041"
       ]
     },
     {
