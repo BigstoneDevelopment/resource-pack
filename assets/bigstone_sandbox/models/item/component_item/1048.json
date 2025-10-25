@@ -3,8 +3,8 @@
   "display": {
     "thirdperson_righthand": {
       "translation": [
-        -18.150000000000002,
-        -2.75,
+        -11.55,
+        1.78,
         4.25
       ],
       "scale": [
@@ -15,8 +15,8 @@
     },
     "thirdperson_lefthand": {
       "translation": [
-        -18.150000000000002,
-        -2.75,
+        -11.55,
+        1.78,
         4.25
       ],
       "scale": [
@@ -27,8 +27,8 @@
     },
     "ground": {
       "translation": [
-        -12.25,
-        0.0,
+        -6.25,
+        4.12,
         -0.5
       ],
       "rotation": [
@@ -44,8 +44,8 @@
     },
     "head": {
       "translation": [
-        -27.72,
-        -4.2,
+        -17.64,
+        2.71,
         0
       ],
       "scale": [
@@ -56,9 +56,9 @@
     },
     "fixed": {
       "translation": [
-        -33,
-        -5.0,
-        -7.5
+        -21,
+        3.23,
+        -8.1
       ],
       "rotation": [
         0,
@@ -73,8 +73,8 @@
     },
     "on_shelf": {
       "translation": [
-        -33,
-        -5.0,
+        -21,
+        3.23,
         5.75
       ],
       "scale": [
