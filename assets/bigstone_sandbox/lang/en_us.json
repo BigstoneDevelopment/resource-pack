@@ -41,6 +41,7 @@
   "bigstone_sandbox.tellraw_message.cleaning_up": "Cleaning up. Please wait...",
   "bigstone_sandbox.tellraw_message.uninstalled": "Done! You can remove the datapack now.",
   "bigstone_sandbox.tellraw_message.private_components_disabled": "Private components has been disabled by an OP.",
+  "bigstone_sandbox.tellraw_message.deleting_public_components_disabled": "Deleting public components has been disabled by an OP.",
 
   "bigstone_sandbox.dialog_menu.click_event_help": "Click to open our Github",
 
