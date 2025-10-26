@@ -152,11 +152,11 @@
   "bigstone_sandbox.dialog_menu.background.bottom": "\uF002",
   "bigstone_sandbox.dialog_menu.background.middle": "\uF003",
   "bigstone_sandbox.dialog_menu.background.home": "\uF004",
-  "bigstone_sandbox.dialog_menu.background.button_box": "\uF005",
   "bigstone_sandbox.dialog_menu.background.import": "\uF006",
   "bigstone_sandbox.dialog_menu.background.section_break": "\uF007",
   "bigstone_sandbox.dialog_menu.background.section_break_2": "\uF008",
-  "bigstone_sandbox.dialog_menu.background.button_box_large": "\uF009",
+  "bigstone_sandbox.dialog_menu.background.menu_background": "\uF005",
+  "bigstone_sandbox.dialog_menu.background.menu_background_light": "\uF009",
   "bigstone_sandbox.dialog_menu.background.export": "\uF00A",
 
   "bigstone_sandbox.dialog_menu.button.admin_delete": "\uF010",

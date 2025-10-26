@@ -38,8 +38,8 @@
     },
     {
       "type": "bitmap",
-      "file": "bigstone_sandbox:font/background/button_box.png",
-      "height": 36,
+      "file": "bigstone_sandbox:font/background/menu_background.png",
+      "height": 256,
       "ascent": 0,
       "chars": [
         "\uF005"
@@ -47,8 +47,8 @@
     },
     {
       "type": "bitmap",
-      "file": "bigstone_sandbox:font/background/button_box_large.png",
-      "height": 44,
+      "file": "bigstone_sandbox:font/background/menu_background_light.png",
+      "height": 256,
       "ascent": 0,
       "chars": [
         "\uF009"
