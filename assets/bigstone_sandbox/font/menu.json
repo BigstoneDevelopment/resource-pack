@@ -63,6 +63,15 @@
         "\uF006"
       ]
     },
+        {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/export.png",
+      "height": 256,
+      "ascent": 8,
+      "chars": [
+        "\uF00A"
+      ]
+    },
     {
       "type": "bitmap",
       "file": "bigstone_sandbox:font/background/section_break.png",

@@ -117,7 +117,8 @@
   "bigstone_sandbox.dialog_menu.discord": "Discord",
   "bigstone_sandbox.dialog_menu.github": "Github",
   "bigstone_sandbox.dialog_menu.credits": "Credits",
-  "bigstone_sandbox.dialog_menu.copy_prompt": "Click to copy",
+  "bigstone_sandbox.dialog_menu.copy_prompt": "Copy to clipboard",
+  "bigstone_sandbox.dialog_menu.copy_hover": "Click to copy",
   "bigstone_sandbox.dialog_menu.private": "Private",
   "bigstone_sandbox.dialog_menu.public": "Public",
   "bigstone_sandbox.dialog_menu.saved": "Saved",
@@ -143,6 +144,7 @@
   "bigstone_sandbox.dialog_menu.next_page": "Next Page",
   "bigstone_sandbox.dialog_menu.current_page": "Page %1$s/%2$s",
   "bigstone_sandbox.dialog_menu.share": "Share to chat",
+  "bigstone_sandbox.dialog_menu.item_data": "Item Data:",
 
   "bigstone_sandbox.component.made_by": "Made by %s",
 
@@ -155,6 +157,7 @@
   "bigstone_sandbox.dialog_menu.background.section_break": "\uF007",
   "bigstone_sandbox.dialog_menu.background.section_break_2": "\uF008",
   "bigstone_sandbox.dialog_menu.background.button_box_large": "\uF009",
+  "bigstone_sandbox.dialog_menu.background.export": "\uF00A",
 
   "bigstone_sandbox.dialog_menu.button.admin_delete": "\uF010",
   "bigstone_sandbox.dialog_menu.button.delete": "\uF011",
