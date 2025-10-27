@@ -1,88 +1,39 @@
 {
-  "parent": "bigstone_sandbox:item/tri_right",
-  "display": {
-    "thirdperson_righthand": {
-      "translation": [
-        4.95,
-        -0.7,
-        4.25
+  "parent": "bigstone_sandbox:item/display_base",
+  "elements": [
+    {
+      "from": [
+        9,
+        16.25,
+        8
       ],
-      "scale": [
-        0.55,
-        0.55,
-        0.55
-      ]
-    },
-    "thirdperson_lefthand": {
-      "translation": [
-        4.95,
-        -0.7,
-        4.25
+      "to": [
+        10,
+        17.25,
+        8
       ],
-      "scale": [
-        0.55,
-        0.55,
-        0.55
-      ]
-    },
-    "ground": {
-      "translation": [
-        8.75,
-        1.87,
-        -0.5
-      ],
-      "rotation": [
-        0,
-        90,
-        0
-      ],
-      "scale": [
-        0.5,
-        0.5,
-        0.5
-      ]
-    },
-    "head": {
-      "translation": [
-        7.560099999999999,
-        -1.06,
-        0.0001
-      ],
-      "scale": [
-        0.84,
-        0.84,
-        0.84
-      ]
-    },
-    "fixed": {
-      "translation": [
-        -6.75,
-        1.93,
-        -8.1
-      ],
-      "rotation": [
-        0,
-        -180,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    "on_shelf": {
-      "translation": [
-        9.0,
-        -1.27,
-        5.75
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": "#1",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#1",
+          "tintindex": 0
+        }
+      }
     }
-  },
-  "gui_light": "front"
+  ]
 }

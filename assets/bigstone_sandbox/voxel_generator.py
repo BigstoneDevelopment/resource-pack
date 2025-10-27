@@ -2,84 +2,92 @@ import os
 import json
 import sys
 import copy
+import math
 
 n = 1535
 tileSize = 0.3125
 tileScale = 0.5
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-item_display_script_ref = os.path.join(script_dir, 'models', 'item', "item_display_script_ref.json")
-print("ref:"+item_display_script_ref+"\n")
-if not os.path.isfile(item_display_script_ref):
-    sys.exit("Error, can't find script")
-print("found display reference in "+item_display_script_ref+"\n")
 
-with open(item_display_script_ref, 'r') as f:
-    item_display_base = json.load(f)
+#tri left
+tri_left_ref = os.path.join(script_dir, 'models', 'item', "tri_left.json")
+print("ref:"+tri_left_ref+"\n")
+if not os.path.isfile(tri_left_ref):
+    sys.exit("Error, can't find script")
+print("found display reference 1 in "+tri_left_ref+"\n")
+
+with open(tri_left_ref, 'r') as f1:
+    tri_left = json.load(f1)
+
+#tri right
+tri_right_ref = os.path.join(script_dir, 'models', 'item', "tri_right.json")
+print("ref:"+tri_right_ref+"\n")
+if not os.path.isfile(tri_right_ref):
+    sys.exit("Error, can't find script")
+print("found display reference 2 in "+tri_right_ref+"\n")
+
+with open(tri_right_ref, 'r') as f2:
+    tri_right = json.load(f2)
 
 output_dir = os.path.join(script_dir, 'models', 'item', 'component_item')
 os.makedirs(output_dir, exist_ok=True)
 
-# --- Dynamic growing columns ---
-base_height = 31
-col_height = base_height           # current column height
-col_index = 0                      # which column we're in
-inv_col_index = 0
-next_col_start = col_height       # i value at which we go to next column
+def clampArray(ar):
+    ar[0] = round(ar[0],2)
+    ar[1] = round(ar[1],2)
+    ar[2] = round(ar[2],2)
 
-for i in range(n):
+    ar[0] = min(max(ar[0],-16),32)
+    ar[1] = min(max(ar[1],-16),32)
+    ar[2] = min(max(ar[2],-16),32)
 
-    file_name = f'{i:04d}'
+vert_scale = 0.625
+vert_base_count = 33
+hori_count = 32
 
-    display_copy = copy.deepcopy(item_display_base["display"])
+count = 0
+for i in range(hori_count):
 
-    # vertical + horizontal movement using correct col_index now
-    if i<(1536//2):
-        # If we've reached or passed the boundary → open next column
-        if i >= next_col_start:
-            col_index += 1
-            inv_col_index = col_index
-            col_height = base_height + col_index * 2       # +2 per column
-            next_col_start += col_height                   # grow the boundary forward
+    invert_threshold = 16-0.5
+    add_height = math.floor((invert_threshold - abs(i - invert_threshold))*2)
+    print(f"i: {i}, j: {vert_base_count+add_height}\n")
+    for j in range(vert_base_count + add_height):
 
-        parent_index = "tri_left" if ((i + inv_col_index) % 2 != 0) else "tri_right"
+        tri_dir = ((j)%2 == 0) == (i<invert_threshold)
+        file_name = f'{count:04d}'
+        count+=1
+
+        if tri_dir:
+            tri_copy = copy.deepcopy(tri_left["elements"][0])
+        else:
+            tri_copy = copy.deepcopy(tri_right["elements"][0])
+        
+        tri_from = tri_copy["from"]
+        tri_to = tri_copy["to"]
+
+        tri_scale = [
+            tri_to[0] - tri_from[0],
+            (tri_to[1] - tri_from[1])*vert_scale,
+            tri_to[2] - tri_from[2]
+        ]
+        tri_to[0] = tri_to[0] + i*tri_scale[0]
+        tri_to[1] = tri_to[1] + j*tri_scale[1] - add_height*tri_scale[1]*0.5
+        tri_to[2] = tri_to[2]
+
+        tri_from[0] = tri_from[0] + i*tri_scale[0]
+        tri_from[1] = tri_from[1] + j*tri_scale[1] - add_height*tri_scale[1]*0.5
+        tri_from[2] = tri_from[2]
+        
+        clampArray(tri_from)
+        clampArray(tri_to)
 
         data = {
-            "parent": f"bigstone_sandbox:item/{parent_index}"
-        }
-        for section, props in display_copy.items():
-            if "translation" in props and "scale" in props:
-                # i % col_height only makes sense while still in this column
-                local_i = i - (next_col_start - col_height)
-                props["translation"][1] += props["scale"][1] * tileSize * local_i-col_index/(3.1875)
-                props["translation"][1] = max(min(round(props["translation"][1], 2), 80), -80)
+                "parent": "bigstone_sandbox:item/display_base",
+                "elements": [tri_copy]
+            }
 
-                props["translation"][0] += props["scale"][0] * col_index*tileScale
-    else:
-        if i >= next_col_start:
-            col_index += 1
-            inv_col_index -= 1
-            col_height = base_height + inv_col_index * 2       # -2 per column
-            next_col_start += col_height                   # grow the boundary forward
+        with open(os.path.join(output_dir, f"{file_name}.json"), 'w') as f:
+            json.dump(data, f, indent=2)
 
-        parent_index = "tri_left" if ((i + inv_col_index) % 2 == 0) else "tri_right"
-
-        data = {
-            "parent": f"bigstone_sandbox:item/{parent_index}"
-        }
-        for section, props in display_copy.items():
-            if "translation" in props and "scale" in props:
-                # i % col_height only makes sense while still in this column
-                local_i = i - (next_col_start - col_height)
-                props["translation"][1] += props["scale"][1] * ((tileSize * local_i-inv_col_index/(3.1875))-tileSize)
-                props["translation"][1] = max(min(round(props["translation"][1], 2), 80), -80)
-
-                props["translation"][0] += props["scale"][0] * col_index*tileScale
-
-    data["display"] = display_copy
-    data["gui_light"] = item_display_base.get("gui_light")
-
-    with open(os.path.join(output_dir, f"{file_name}.json"), 'w') as f:
-        json.dump(data, f, indent=2)
-
-print(f"Generated {n} JSON files in {output_dir}\n")
+print(f"Generated {count} JSON files in {output_dir}\n")
