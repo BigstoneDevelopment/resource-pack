@@ -6,7 +6,7 @@
       "height": 256,
       "ascent": 0,
       "chars": [
-        "\u0001"
+        "\uF001"
       ]
     },
     {
@@ -15,7 +15,7 @@
       "height": 8,
       "ascent": -4,
       "chars": [
-        "\u0002"
+        "\uF002"
       ]
     },
     {
@@ -24,7 +24,7 @@
       "height": 256,
       "ascent": 0,
       "chars": [
-        "\u0003"
+        "\uF003"
       ]
     },
     {
@@ -33,25 +33,25 @@
       "height": 256,
       "ascent": 8,
       "chars": [
-        "\u0004"
+        "\uF004"
       ]
     },
     {
       "type": "bitmap",
-      "file": "bigstone_sandbox:font/background/button_box.png",
-      "height": 36,
+      "file": "bigstone_sandbox:font/background/menu_background.png",
+      "height": 256,
       "ascent": 0,
       "chars": [
-        "\u0005"
+        "\uF005"
       ]
     },
     {
       "type": "bitmap",
-      "file": "bigstone_sandbox:font/background/button_box_large.png",
-      "height": 44,
+      "file": "bigstone_sandbox:font/background/menu_background_light.png",
+      "height": 256,
       "ascent": 0,
       "chars": [
-        "\u0009"
+        "\uF009"
       ]
     },
     {
@@ -60,7 +60,16 @@
       "height": 256,
       "ascent": 8,
       "chars": [
-        "\u0006"
+        "\uF006"
+      ]
+    },
+        {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/background/export.png",
+      "height": 256,
+      "ascent": 8,
+      "chars": [
+        "\uF00A"
       ]
     },
     {
@@ -69,7 +78,7 @@
       "height": 8,
       "ascent": -11,
       "chars": [
-        "\u0007"
+        "\uF007"
       ]
     },
     {
@@ -78,7 +87,16 @@
       "height": 8,
       "ascent": -19,
       "chars": [
-        "\u0008"
+        "\uF008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/save.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\uF043"
       ]
     },
     {
@@ -87,7 +105,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0010"
+        "\uF010"
       ]
     },
     {
@@ -96,7 +114,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0011"
+        "\uF011"
       ]
     },
     {
@@ -105,7 +123,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0012"
+        "\uF012"
       ]
     },
     {
@@ -114,7 +132,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0013"
+        "\uF013"
       ]
     },
     {
@@ -123,7 +141,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0014"
+        "\uF014"
       ]
     },
     {
@@ -132,7 +150,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0015"
+        "\uF015"
       ]
     },
     {
@@ -141,7 +159,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0016"
+        "\uF016"
       ]
     },
     {
@@ -150,7 +168,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0017"
+        "\uF017"
       ]
     },
     {
@@ -159,7 +177,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0018"
+        "\uF018"
       ]
     },
     {
@@ -168,7 +186,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0019"
+        "\uF019"
       ]
     },
     {
@@ -177,7 +195,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0020"
+        "\uF020"
       ]
     },
     {
@@ -186,7 +204,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0021"
+        "\uF021"
       ]
     },
     {
@@ -195,7 +213,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0029"
+        "\uF029"
       ]
     },
     {
@@ -204,7 +222,7 @@
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u0022"
+        "\uF022"
       ]
     },
     {
@@ -213,7 +231,7 @@
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u0023"
+        "\uF023"
       ]
     },
     {
@@ -222,7 +240,7 @@
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u0024"
+        "\uF024"
       ]
     },
     {
@@ -231,7 +249,7 @@
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u0026"
+        "\uF026"
       ]
     },
     {
@@ -240,7 +258,7 @@
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u0027"
+        "\uF027"
       ]
     },
     {
@@ -249,7 +267,7 @@
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u0033"
+        "\uF033"
       ]
     },
     {
@@ -258,7 +276,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0030"
+        "\uF030"
       ]
     },
     {
@@ -267,7 +285,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0031"
+        "\uF031"
       ]
     },
     {
@@ -276,7 +294,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0032"
+        "\uF032"
       ]
     },
     {
@@ -285,7 +303,7 @@
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u0028"
+        "\uF028"
       ]
     },
     {
@@ -294,7 +312,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0034"
+        "\uF034"
       ]
     },
     {
@@ -303,7 +321,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0035"
+        "\uF035"
       ]
     },
     {
@@ -312,7 +330,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0036"
+        "\uF036"
       ]
     },
     {
@@ -321,7 +339,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0037"
+        "\uF037"
       ]
     },
     {
@@ -330,7 +348,7 @@
       "height": 19,
       "ascent": 8,
       "chars": [
-        "\u0038"
+        "\uF038"
       ]
     },
     {
@@ -339,7 +357,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0039"
+        "\uF039"
       ]
     },
     {
@@ -348,7 +366,7 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0040"
+        "\uF040"
       ]
     },
     {
@@ -357,7 +375,16 @@
       "height": 16,
       "ascent": 8,
       "chars": [
-        "\u0041"
+        "\uF041"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/share.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\uF042"
       ]
     },
     {
@@ -366,7 +393,7 @@
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u001D"
+        "\uF01D"
       ]
     },
     {
@@ -375,7 +402,7 @@
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u001E"
+        "\uF01E"
       ]
     },
     {
@@ -384,7 +411,7 @@
       "height": 8,
       "ascent": 8,
       "chars": [
-        "\u001F"
+        "\uF01F"
       ]
     }
   ]
