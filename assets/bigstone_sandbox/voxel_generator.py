@@ -71,12 +71,12 @@ for i in range(hori_count):
             (tri_to[1] - tri_from[1])*vert_scale,
             tri_to[2] - tri_from[2]
         ]
-        tri_to[0] = tri_to[0] + i*tri_scale[0]
-        tri_to[1] = tri_to[1] + j*tri_scale[1] - add_height*tri_scale[1]*0.5
+        tri_to[0] = tri_to[0] + i*tri_scale[0] + 0.01
+        tri_to[1] = tri_to[1] + j*tri_scale[1] - add_height*tri_scale[1]*0.5 + 0.01
         tri_to[2] = tri_to[2]
 
-        tri_from[0] = tri_from[0] + i*tri_scale[0]
-        tri_from[1] = tri_from[1] + j*tri_scale[1] - add_height*tri_scale[1]*0.5
+        tri_from[0] = tri_from[0] + i*tri_scale[0] - 0.01
+        tri_from[1] = tri_from[1] + j*tri_scale[1] - add_height*tri_scale[1]*0.5 - 0.01
         tri_from[2] = tri_from[2]
         
         clampArray(tri_from)
