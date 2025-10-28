@@ -16,7 +16,7 @@ for i in range(n + 1):
             "tints": [
                 {
                 "type": "minecraft:constant",
-                "value": [0.0,0.1,0.2]
+                "value": [0.75,0.8,0.8]
                 }
             ]
         },
