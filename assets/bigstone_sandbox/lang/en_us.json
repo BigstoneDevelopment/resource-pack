@@ -43,6 +43,7 @@
   "bigstone_sandbox.tellraw_message.private_components_disabled": "Private components has been disabled by an OP.",
   "bigstone_sandbox.tellraw_message.deleting_public_components_disabled": "Deleting public components has been disabled by an OP.",
   "bigstone_sandbox.tellraw_message.invalid_structure_placement": "Structure Placement is Invalid.",
+  "bigstone_sandbox.tellraw_message.unknown_structure_placement": "Structure Placement not found.",
 
   "bigstone_sandbox.dialog_menu.click_event_help": "Click to open our Github",
 
@@ -148,6 +149,8 @@
   "bigstone_sandbox.dialog_menu.current_page": "Page %1$s/%2$s",
   "bigstone_sandbox.dialog_menu.share": "Share to chat",
   "bigstone_sandbox.dialog_menu.item_data": "Item Data:",
+  "bigstone_sandbox.dialog_menu.uninstall": "Uninstall",
+  "bigstone_sandbox.dialog_menu.reinstall": "Reinstall",
 
   "bigstone_sandbox.component.made_by": "Made by %s",
 
