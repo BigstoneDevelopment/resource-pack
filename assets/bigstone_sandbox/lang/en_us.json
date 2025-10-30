@@ -45,6 +45,9 @@
   "bigstone_sandbox.tellraw_message.deleting_public_components_disabled": "Deleting public components has been disabled by an OP.",
   "bigstone_sandbox.tellraw_message.invalid_structure_placement": "Structure Placement is Invalid.",
   "bigstone_sandbox.tellraw_message.unknown_structure_placement": "Structure Placement not found.",
+  "bigstone_sandbox.tellraw_message.error_structure_saving": "Structure Saving encountered an error.",
+  "bigstone_sandbox.tellraw_message.aprox_structure_data_size": "Approximate Structure data size: ",
+  "bigstone_sandbox.tellraw_message.structure_data_size_warning": "Structure is most likely too large to handle! Continue at own risk.",
 
   "bigstone_sandbox.dialog_menu.click_event_help": "Click to open our Github",
 
@@ -86,6 +89,7 @@
   "bigstone_sandbox.dialog_menu.components_menu": "Bigstone Sandbox - Components Menu",
   "bigstone_sandbox.dialog_menu.import_component": "Bigstone Sandbox - Import Component",
   "bigstone_sandbox.dialog_menu.export_component": "Bigstone Sandbox - Export Component",
+  "bigstone_sandbox.dialog_menu.saved_component": "Bigstone Sandbox - Saved Component",
   "bigstone_sandbox.dialog_menu.filter_components": "Bigstone Sandbox - Filter Components",
   "bigstone_sandbox.dialog_menu.options_menu": "Bigstone Sandbox - Options",
   "bigstone_sandbox.dialog_menu.admin_options_menu": "Bigstone Sandbox - Admin Options",
@@ -111,6 +115,7 @@
   "bigstone_sandbox.dialog_menu.reset_filters": "Reset Filters",
   "bigstone_sandbox.dialog_menu.give": "Add to inventory",
   "bigstone_sandbox.dialog_menu.breaker": "Give Component Breaker",
+  "bigstone_sandbox.dialog_menu.saver": "Give Component Saver",
   "bigstone_sandbox.dialog_menu.import": "Import",
   "bigstone_sandbox.dialog_menu.back": "Back",
   "bigstone_sandbox.dialog_menu.search": "Search",
@@ -152,6 +157,7 @@
   "bigstone_sandbox.dialog_menu.current_page": "Page %1$s/%2$s",
   "bigstone_sandbox.dialog_menu.share": "Share to chat",
   "bigstone_sandbox.dialog_menu.item_data": "Item Data:",
+  "bigstone_sandbox.dialog_menu.open_in_browser": "Open URL in browser:",
   "bigstone_sandbox.dialog_menu.uninstall": "Uninstall",
   "bigstone_sandbox.dialog_menu.reinstall": "Reinstall",
 
@@ -169,6 +175,7 @@
   "bigstone_sandbox.dialog_menu.background.export": "\uF00A",
 
   "bigstone_sandbox.dialog_menu.button.save": "\uF043",
+  "bigstone_sandbox.dialog_menu.button.saver": "\uF045",
   "bigstone_sandbox.dialog_menu.button.admin_delete": "\uF010",
   "bigstone_sandbox.dialog_menu.button.breaker": "\uF044",
   "bigstone_sandbox.dialog_menu.button.delete": "\uF011",
