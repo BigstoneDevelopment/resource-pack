@@ -119,7 +119,7 @@
     },
     {
       "type": "bitmap",
-      "file": "bigstone_sandbox:font/button/delete.png",
+      "file": "bigstone_sandbox:font/button/breaker.png",
       "height": 16,
       "ascent": 8,
       "chars": [
