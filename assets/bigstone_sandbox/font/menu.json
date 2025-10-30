@@ -119,6 +119,15 @@
     },
     {
       "type": "bitmap",
+      "file": "bigstone_sandbox:font/button/delete.png",
+      "height": 16,
+      "ascent": 8,
+      "chars": [
+        "\uF044"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "bigstone_sandbox:font/button/edit.png",
       "height": 16,
       "ascent": 8,
