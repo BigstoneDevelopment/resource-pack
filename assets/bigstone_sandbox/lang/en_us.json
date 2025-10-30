@@ -130,6 +130,7 @@
   "bigstone_sandbox.dialog_menu.saved": "Saved",
   "bigstone_sandbox.dialog_menu.import_from_hand": "Import component from mainhand:",
   "bigstone_sandbox.dialog_menu.or": "OR",
+  "bigstone_sandbox.dialog_menu.search_prompt": "Enter the search query:",
   "bigstone_sandbox.dialog_menu.import_prompt": "Paste item data: ",
   "bigstone_sandbox.dialog_menu.saved_hotbars_explain": "Want to import from item data without OP? import them in another world and bring them over with %s!",
   "bigstone_sandbox.dialog_menu.saved_hotbars_click": "saved hotbars",
