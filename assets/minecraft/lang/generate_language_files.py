@@ -18,7 +18,7 @@ content = {
     "menu.custom_screen_info.title": "Exit to Menu?",
     "menu.custom_screen_info.contents": "\n",
     "chat.link.warning": "",
-    "chat.link.confirm": "󏿠󏻭Are you sure you want to open the following?"
+    "chat.link.confirm": "󏿘󏻭Are you sure you want to open the following?"
 }
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
