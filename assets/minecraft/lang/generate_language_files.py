@@ -12,7 +12,13 @@ minecraft_languages = [
 content = {
     "commands.trigger.add.success": "",
     "commands.trigger.set.success": "",
-    "commands.trigger.simple.success": ""
+    "commands.trigger.simple.success": "",
+    "menu.custom_options.tooltip": "",
+    "menu.custom_screen_info.tooltip": "Exit to Menu",
+    "menu.custom_screen_info.title": "Exit to Menu?",
+    "menu.custom_screen_info.contents": "\n",
+    "chat.link.warning": "",
+    "chat.link.confirm": "󏿠󏻭Are you sure you want to open the following?"
 }
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
