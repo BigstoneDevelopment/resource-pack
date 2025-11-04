@@ -106,6 +106,8 @@
   "bigstone_sandbox.dialog_menu.port_delimiter": ", ",
   "bigstone_sandbox.dialog_menu.tags_list": "Tags: %s",
   "bigstone_sandbox.dialog_menu.tag_delimiter": ", ",
+  "bigstone_sandbox.dialog_menu.no_components_found_title": "No components found",
+  "bigstone_sandbox.dialog_menu.no_components_found": "You need to import components to continue.",
   "bigstone_sandbox.dialog_menu.delete": "Delete",
   "bigstone_sandbox.dialog_menu.save": "Save",
   "bigstone_sandbox.dialog_menu.admin_delete": "Force Delete",
