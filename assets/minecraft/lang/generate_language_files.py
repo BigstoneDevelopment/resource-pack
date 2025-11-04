@@ -12,7 +12,14 @@ minecraft_languages = [
 content = {
     "commands.trigger.add.success": "",
     "commands.trigger.set.success": "",
-    "commands.trigger.simple.success": ""
+    "commands.trigger.simple.success": "",
+    
+    "menu.custom_screen_info.button_narration": "Force exit dialog",
+    "menu.custom_screen_info.contents": "If you need to force exit the menu, you can do so below.",
+    "menu.custom_screen_info.disconnect": "You force exited.",
+    "menu.custom_screen_info.title": "Force exit?",
+    "menu.custom_screen_info.tooltip": "",
+    "menu.custom_options.tooltip": "Bigstone Sandbox is a third party datapack with links to external sites. Be careful with copies downloaded from unofficial sources."
 }
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
