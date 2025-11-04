@@ -26,15 +26,6 @@
             ]
         },
         {
-            "type":"bitmap",
-            "file":"bigstone_sandbox:gui/linkpage_url_overlay.png",
-            "ascent": 82,
-            "height": 161,
-            "chars":[
-                "\uEe02"
-            ]
-        },
-        {
             "type":"space",
             "advances":{
                 "󎀀":-8192,
