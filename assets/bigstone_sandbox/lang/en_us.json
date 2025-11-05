@@ -48,6 +48,7 @@
   "bigstone_sandbox.tellraw_message.error_structure_saving": "Structure Saving encountered an error.",
   "bigstone_sandbox.tellraw_message.aprox_structure_data_size": "Approximate Structure data size: ",
   "bigstone_sandbox.tellraw_message.structure_data_size_warning": "Structure is most likely too large to handle! Continue at own risk.",
+  "bigstone_sandbox.tellraw_message.structure_failed": "Failed to copy structure, please report this!",
 
   "bigstone_sandbox.dialog_menu.click_event_help": "Click to open our Github",
 
