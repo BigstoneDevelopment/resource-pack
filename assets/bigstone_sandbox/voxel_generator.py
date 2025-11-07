@@ -42,9 +42,11 @@ def clampArray(ar):
     ar[1] = min(max(ar[1],-16),32)
     ar[2] = min(max(ar[2],-16),32)
 
-vert_scale = 0.625
+vert_scale = 0.57
 vert_base_count = 33
 hori_count = 32
+
+offset = 0.03
 
 count = 0
 for i in range(hori_count):
@@ -71,12 +73,12 @@ for i in range(hori_count):
             (tri_to[1] - tri_from[1])*vert_scale,
             tri_to[2] - tri_from[2]
         ]
-        tri_to[0] = tri_to[0] + i*tri_scale[0] + 0.01
-        tri_to[1] = tri_to[1] + j*tri_scale[1] - add_height*tri_scale[1]*0.5 + 0.01
+        tri_to[0] = tri_to[0] + i*tri_scale[0] + offset
+        tri_to[1] = tri_to[1] + j*tri_scale[1] - add_height*tri_scale[1]*0.5
         tri_to[2] = tri_to[2]
 
-        tri_from[0] = tri_from[0] + i*tri_scale[0] - 0.01
-        tri_from[1] = tri_from[1] + j*tri_scale[1] - add_height*tri_scale[1]*0.5 - 0.01
+        tri_from[0] = tri_from[0] + i*tri_scale[0] - offset
+        tri_from[1] = tri_from[1] + j*tri_scale[1] - add_height*tri_scale[1]*0.5 - offset
         tri_from[2] = tri_from[2]
         
         clampArray(tri_from)
