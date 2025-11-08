@@ -3,9 +3,13 @@
     "commands.trigger.set.success": "",
     "commands.trigger.simple.success": "",
     "menu.custom_options.tooltip": "",
-    "menu.custom_screen_info.tooltip": "Exit to Menu",
-    "menu.custom_screen_info.title": "Exit to Menu?",
-    "menu.custom_screen_info.contents": "\n",
+    "menu.custom_screen_info.tooltip": "Exit Session",
+    "menu.custom_screen_info.title": "Exit Session?",
+    "menu.custom_screen_info.contents": "",
+    "menu.custom_screen_info.disconnect": "Session Exited",
     "chat.link.warning": "",
-    "chat.link.confirm": "󏿘󏻭Are you sure you want to open the following?"
+    "chat.link.confirm": "󏿘󏻭Are you sure you want to open the following?",
+    "selectWorld.backupQuestion.experimental": "Welcome to Bigstone sandbox!",
+    "selectWorld.backupWarning.experimental": "\nBigstone sandbox is a datapack made for using and placing 16x16x16 blocks components,\n\n if you're seeing this while loading a bigstone datapack world that means you have equipped the resourcepack and are ready to hop in. If this isn't a bigstone datapack world that means you loaded something else.\n Regardless have fun!",
+    "selectWorld.backupJoinSkipButton": "Join World"
 }
