@@ -9,6 +9,24 @@
         },
         {
             "type":"bitmap",
+            "file":"bigstone_sandbox:gui/startup_screen_right.png",
+            "ascent": 16,
+            "height": 160,
+            "chars":[
+                "\uEe03"
+            ]
+        },
+        {
+            "type":"bitmap",
+            "file":"bigstone_sandbox:gui/startup_screen_left.png",
+            "ascent": 16,
+            "height": 160,
+            "chars":[
+                "\uEe02"
+            ]
+        },
+        {
+            "type":"bitmap",
             "file":"bigstone_sandbox:url_screenshot/wiki.png",
             "ascent": 13,
             "height": 30,
