@@ -10,6 +10,6 @@
     "chat.link.warning": "",
     "chat.link.confirm": "󏿘󏻭Are you sure you want to open the following?",
     "selectWorld.backupQuestion.experimental": "󏿿",
-    "selectWorld.backupWarning.experimental": "Welcome to Bigstone sandbox!\n\n\n\n\n\n\n\nIf you're seeing this while loading a bigstone datapack world that means\nyou have equipped the resourcepack and are ready to hop in.\n If this isn't a bigstone datapack world that means you loaded something else.\nRegardless have fun!",
+    "selectWorld.backupWarning.experimental": "§6Welcome to Bigstone sandbox!§r\n\n\n\n\n\n\n\nIf you're seeing this while loading a bigstone datapack world that means\nyou have equipped the resourcepack and are ready to hop in.\n §7If this isn't a bigstone datapack world that means you loaded\na different §nexperimental pack§r. Regardless have fun!§r",
     "selectWorld.backupJoinSkipButton": "Join World"
 }
