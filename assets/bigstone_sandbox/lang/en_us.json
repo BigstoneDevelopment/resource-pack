@@ -13,6 +13,7 @@
   "newline_9": "\n\n\n\n\n\n\n\n\n",
   "newline_10": "\n\n\n\n\n\n\n\n\n\n",
   "bigstone_sandbox.dialog_menu.empty": "",
+  "bigstone_sandbox.variable": "%s",
 
   "bigstone_sandbox.dialog_menu.project_name": "Bigstone Sandbox",
   "bigstone_sandbox.dialog_menu.project_description": "A Bigstone Components sandbox without\nneeding to install mods!",
@@ -24,6 +25,12 @@
   "bigstone_sandbox.dialog_menu.credits.uiux_artists": "Huckle (UI Mockups)\nXoliks",
   "bigstone_sandbox.dialog_menu.credits.wiki_maintainers": "gingrspacecadet (Founder)\nSpin4team4096\nTheCrazy8",
   "bigstone_sandbox.dialog_menu.credits.attributions": "Menu Music - Blooper Nova by OmicronGaming",
+
+  "bigstone_sandbox.item.component_saver": "Component Saver",
+  "bigstone_sandbox.item.component_saver_description": "Used to save Bigstone components safely.",
+  "bigstone_sandbox.item.component_breaker": "Component Breaker",
+  "bigstone_sandbox.item.component_breaker_description": "Used to break Bigstone components safely.",
+  "bigstone_sandbox.item.right_click_action": "Right click to use",
 
   "bigstone_sandbox.tellraw_message.title": "Bigstone Sandbox",
   "bigstone_sandbox.tellraw_message.description": "A simple Bigstone Sandbox",
