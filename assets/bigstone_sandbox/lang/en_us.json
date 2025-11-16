@@ -24,7 +24,7 @@
   "bigstone_sandbox.dialog_menu.credits.devs": "Huckle / CrazyH2 \nArttale / Art\nXoliks / Xoliks",
   "bigstone_sandbox.dialog_menu.credits.uiux_artists": "Huckle (UI Mockups)\nXoliks",
   "bigstone_sandbox.dialog_menu.credits.wiki_maintainers": "gingrspacecadet (Founder)\nSpin4team4096\nTheCrazy8",
-  "bigstone_sandbox.dialog_menu.credits.attributions": "Menu Music - Blooper Nova by OmicronGaming",
+  "bigstone_sandbox.dialog_menu.credits.attributions": "Utility Lib - Bookshelf\nItem Structures - Shuba\nPlayerdata Lib - Xolibs\nMenu Music - Blooper Nova by OmicronGaming",
 
   "bigstone_sandbox.item.component_saver": "Component Saver",
   "bigstone_sandbox.item.component_saver_description": "Used to save Bigstone components safely.",
@@ -55,6 +55,7 @@
   "bigstone_sandbox.tellraw_message.error_structure_saving": "Structure Saving encountered an error.",
   "bigstone_sandbox.tellraw_message.aprox_structure_data_size": "Approximate Structure data size: ",
   "bigstone_sandbox.tellraw_message.structure_data_size_warning": "Structure is most likely too large to handle! Continue at own risk.",
+  "bigstone_sandbox.tellraw_message.structure_failed": "Failed to copy structure, please report this!",
 
   "bigstone_sandbox.dialog_menu.click_event_help": "Click to open our Github",
 

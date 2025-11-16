@@ -14,11 +14,15 @@ content = {
     "commands.trigger.set.success": "",
     "commands.trigger.simple.success": "",
     "menu.custom_options.tooltip": "",
-    "menu.custom_screen_info.tooltip": "Exit to Menu",
-    "menu.custom_screen_info.title": "Exit to Menu?",
-    "menu.custom_screen_info.contents": "\n",
+    "menu.custom_screen_info.tooltip": "Exit Session",
+    "menu.custom_screen_info.title": "Exit Session?",
+    "menu.custom_screen_info.contents": "",
+    "menu.custom_screen_info.disconnect": "Session Exited",
     "chat.link.warning": "",
-    "chat.link.confirm": "󏿘󏻭Are you sure you want to open the following?"
+    "chat.link.confirm": "󏿘󏻭Are you sure you want to open the following?",
+    "selectWorld.backupQuestion.experimental": "󏿿",
+    "selectWorld.backupWarning.experimental": "§6Welcome to Bigstone sandbox!§r\n\n\n\n\n\n\n\nIf you're seeing this while loading a bigstone datapack world that means\nyou have equipped the resourcepack and are ready to hop in.\n §7If this isn't a bigstone datapack world that means you loaded\na different §nexperimental pack§r. Regardless have fun!§r",
+    "selectWorld.backupJoinSkipButton": "Join World"
 }
 
 script_dir = os.path.dirname(os.path.abspath(__file__))

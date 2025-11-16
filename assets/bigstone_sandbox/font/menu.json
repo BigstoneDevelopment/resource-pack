@@ -4,7 +4,7 @@
       "type": "bitmap",
       "file": "bigstone_sandbox:font/background/top.png",
       "height": 256,
-      "ascent": 0,
+      "ascent": 7,
       "chars": [
         "\uF001"
       ]
