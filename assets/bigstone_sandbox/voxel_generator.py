@@ -4,33 +4,19 @@ import sys
 import copy
 import math
 
-n = 1535
-tileSize = 0.3125
-tileScale = 0.5
-
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-#tri left
-tri_left_ref = os.path.join(script_dir, 'models', 'item', "tri_left.json")
-print("ref:"+tri_left_ref+"\n")
-if not os.path.isfile(tri_left_ref):
+#voxel face
+voxel_face_ref = os.path.join(script_dir, 'models', 'item', "voxel_face.json")
+print("ref:"+voxel_face_ref+"\n")
+if not os.path.isfile(voxel_face_ref):
     sys.exit("Error, can't find script")
-print("found display reference 1 in "+tri_left_ref+"\n")
+print("found display reference 1 in "+voxel_face_ref+"\n")
 
-with open(tri_left_ref, 'r') as f1:
-    tri_left = json.load(f1)
+with open(voxel_face_ref, 'r') as f1:
+    voxel_face = json.load(f1)
 
-#tri right
-tri_right_ref = os.path.join(script_dir, 'models', 'item', "tri_right.json")
-print("ref:"+tri_right_ref+"\n")
-if not os.path.isfile(tri_right_ref):
-    sys.exit("Error, can't find script")
-print("found display reference 2 in "+tri_right_ref+"\n")
-
-with open(tri_right_ref, 'r') as f2:
-    tri_right = json.load(f2)
-
-output_dir = os.path.join(script_dir, 'models', 'item', 'component_item')
+output_dir = os.path.join(script_dir, 'models', 'item', 'component_3d_item')
 os.makedirs(output_dir, exist_ok=True)
 
 def clampArray(ar):
@@ -42,54 +28,49 @@ def clampArray(ar):
     ar[1] = min(max(ar[1],-16),32)
     ar[2] = min(max(ar[2],-16),32)
 
-vert_scale = 0.57
-vert_base_count = 33
-hori_count = 32
-
-offset = 0.03
-
 count = 0
-for i in range(hori_count):
+width_count = 16
+height_count = 16
+depth_count = 16
+offset_x = 0
+offset_y = 0
+offset_z = 0
 
-    invert_threshold = 16-0.5
-    add_height = math.floor((invert_threshold - abs(i - invert_threshold))*2)
-    print(f"i: {i}, j: {vert_base_count+add_height}\n")
-    for j in range(vert_base_count + add_height):
+for i in range(width_count):
+    for j in range(height_count):
+        for k in range(depth_count):
+            file_name = f'{count:04d}'
+            count+=1
+            
+            _copy = copy.deepcopy(voxel_face["elements"][0])
+            _from = _copy["from"]
+            _to = _copy["to"]
 
-        tri_dir = ((j)%2 == 0) == (i<invert_threshold)
-        file_name = f'{count:04d}'
-        count+=1
+            _scale = [
+                _to[0] - _from[0],
+                _to[1] - _from[1],
+                _to[2] - _from[2]
+            ]
 
-        if tri_dir:
-            tri_copy = copy.deepcopy(tri_left["elements"][0])
-        else:
-            tri_copy = copy.deepcopy(tri_right["elements"][0])
-        
-        tri_from = tri_copy["from"]
-        tri_to = tri_copy["to"]
+            _to[0] = _to[0] + i*_scale[0] + offset_x
+            _to[1] = _to[1] + j*_scale[1] + offset_y
+            _to[2] = _to[2] + k*_scale[1] + offset_z
 
-        tri_scale = [
-            tri_to[0] - tri_from[0],
-            (tri_to[1] - tri_from[1])*vert_scale,
-            tri_to[2] - tri_from[2]
-        ]
-        tri_to[0] = tri_to[0] + i*tri_scale[0] + offset
-        tri_to[1] = tri_to[1] + j*tri_scale[1] - add_height*tri_scale[1]*0.5
-        tri_to[2] = tri_to[2]
+            _from[0] = _from[0] + i*_scale[0] - offset_x
+            _from[1] = _from[1] + j*_scale[1] - offset_y
+            _from[2] = _from[2] + k*_scale[1] - offset_z
+            
+            clampArray(_from)
+            clampArray(_to)
 
-        tri_from[0] = tri_from[0] + i*tri_scale[0] - offset
-        tri_from[1] = tri_from[1] + j*tri_scale[1] - add_height*tri_scale[1]*0.5 - offset
-        tri_from[2] = tri_from[2]
-        
-        clampArray(tri_from)
-        clampArray(tri_to)
+            data = {
+                    "parent": "bigstone_sandbox:item/display_base_voxel",
+                    "elements": [_copy]
+                }
 
-        data = {
-                "parent": "bigstone_sandbox:item/display_base",
-                "elements": [tri_copy]
-            }
-
-        with open(os.path.join(output_dir, f"{file_name}.json"), 'w') as f:
-            json.dump(data, f, indent=2)
+            with open(os.path.join(output_dir, f"{file_name}.json"), 'w') as f:
+                json.dump(data, f, indent=2)
 
 print(f"Generated {count} JSON files in {output_dir}\n")
+
+
