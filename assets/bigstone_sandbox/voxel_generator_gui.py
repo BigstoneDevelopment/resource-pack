@@ -64,18 +64,18 @@ def generateFace(ref, name):
 
                 _faces = _copy["faces"]
 
-                #_north_uv = _faces["north"]["uv"]
+                _north_uv = _faces["north"]["uv"]
                 #_south_uv = _faces["south"]["uv"]
-                #_east_uv = _faces["east"]["uv"]
+                _east_uv = _faces["east"]["uv"]
                 #_west_uv = _faces["west"]["uv"]
-                #_up_uv = _faces["up"]["uv"]
+                _up_uv = _faces["up"]["uv"]
                 #_down_uv = _faces["down"]["uv"]
 
-                #offsetUV(_north_uv,15-i,15-j)
+                offsetUV(_north_uv,15-i,15-j)
                 #offsetUV(_south_uv,i,15-j)
-                #offsetUV(_east_uv,15-k,15-j)
+                offsetUV(_east_uv,15-k,15-j)
                 #offsetUV(_west_uv,k,15-j)
-                #offsetUV(_up_uv,i,k)
+                offsetUV(_up_uv,i,k)
                 #offsetUV(_down_uv,15-i,k)
 
                 _scale = [

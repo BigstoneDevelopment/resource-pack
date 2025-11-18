@@ -8,9 +8,15 @@ def sample_high_res_index(x, y, z):
     hz = z * 2 + 1
     return hx + hy * 16 + hz * 256
 
-
-def generateVoxObject(file_dir, width, height, depth, downsample=False):
+neighbourCheck = [
+    [-1,0,0],[1,0,0],
+    [0,-1,0],[0,1,0],
+    [0,0,-1],[0,0,1]
+]
+def generateVoxObject(file_dir, width, neighbours_to_check = neighbourCheck, downsample=False):
     voxel = []
+    height = width
+    depth = width
     target = width * height * depth
 
     # 3D offsets for neighbor checks
@@ -28,9 +34,7 @@ def generateVoxObject(file_dir, width, height, depth, downsample=False):
 
         # Compute neighbor indices
         neighbours = [
-            i - off_x, i + off_x,
-            i - off_y, i + off_y,
-            i - off_z, i + off_z
+            i + (neigh[0]*off_x) + (neigh[1]*off_y) + (neigh[2]*off_z) for neigh in neighbours_to_check
         ]
 
         # Edge detection
@@ -97,29 +101,39 @@ def generateVoxObject(file_dir, width, height, depth, downsample=False):
         "models": voxel
     }
 
-
 # Generate models
 
 voxel_output = generateVoxObject(
     "component_3d_item",
-    16, 16, 16,
+    16,
     downsample=False
 )
 
 voxel_output_half_res = generateVoxObject(
     "component_3d_item_half_res",
-    8, 8, 8,
+    8,
     downsample=True      # real 2x2x2 sampling!
 )
-
+neighbourCheck_gui = [
+    [-1,0,0],
+    [0,1,0],
+    [0,0,1]
+]
 voxel_output_gui = generateVoxObject(
     "component_3d_item_gui",
-    16, 16, 16,
+    16,
+    neighbours_to_check=neighbourCheck_gui,
     downsample=False
 )
+neighbourCheck_fp = [
+    [1,0,0],
+    [0,1,0],
+    [0,0,-1]
+]
 voxel_output_fp = generateVoxObject(
     "component_3d_item_fp",
-    16, 16, 16,
+    16,
+    neighbours_to_check=neighbourCheck_fp,
     downsample=False
 )
 
@@ -201,7 +215,7 @@ display_context = {
         "property": "minecraft:display_context",
         "cases": [
             {
-                "when": ["fixed"],
+                "when": ["fixed","head"],
                 "model": voxel_output
             },
             {
