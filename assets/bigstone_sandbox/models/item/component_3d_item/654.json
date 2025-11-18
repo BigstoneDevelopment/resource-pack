@@ -15,60 +15,60 @@
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            1,
-            1
+            9,
+            10,
+            10,
+            11
           ],
           "texture": "#1",
           "tintindex": 0
         },
         "east": {
           "uv": [
-            0,
-            0,
-            1,
-            1
+            11,
+            10,
+            12,
+            11
           ],
           "texture": "#1",
           "tintindex": 0
         },
         "south": {
           "uv": [
-            0,
-            0,
-            1,
-            1
+            6,
+            10,
+            7,
+            11
           ],
           "texture": "#1",
           "tintindex": 0
         },
         "west": {
           "uv": [
-            0,
-            0,
-            1,
-            1
+            4,
+            10,
+            5,
+            11
           ],
           "texture": "#1",
           "tintindex": 0
         },
         "up": {
           "uv": [
-            0,
-            0,
-            1,
-            1
+            6,
+            4,
+            7,
+            5
           ],
           "texture": "#1",
           "tintindex": 0
         },
         "down": {
           "uv": [
-            0,
-            0,
-            1,
-            1
+            9,
+            4,
+            10,
+            5
           ],
           "texture": "#1",
           "tintindex": 0

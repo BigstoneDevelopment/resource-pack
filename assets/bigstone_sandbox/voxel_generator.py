@@ -24,12 +24,19 @@ def clampArray(ar):
     ar[1] = min(max(ar[1],-16),32)
     ar[2] = min(max(ar[2],-16),32)
 
+def offsetUV(uv,x,y):
+    uv[0]+=x
+    uv[1]+=y
+    uv[2]+=x
+    uv[3]+=y
+
 width_count = 16
 height_count = 16
 depth_count = 16
 offset_x = 0
 offset_y = 0
 offset_z = 0
+
 
 def generateFace(ref, name):
     count = 0
@@ -51,8 +58,25 @@ def generateFace(ref, name):
                 count+=1
                 
                 _copy = copy.deepcopy(voxel_face["elements"][0])
+
                 _from = _copy["from"]
                 _to = _copy["to"]
+
+                _faces = _copy["faces"]
+
+                _north_uv = _faces["north"]["uv"]
+                _south_uv = _faces["south"]["uv"]
+                _east_uv = _faces["east"]["uv"]
+                _west_uv = _faces["west"]["uv"]
+                _up_uv = _faces["up"]["uv"]
+                _down_uv = _faces["down"]["uv"]
+
+                offsetUV(_north_uv,15-i,15-j)
+                offsetUV(_south_uv,i,15-j)
+                offsetUV(_east_uv,15-k,15-j)
+                offsetUV(_west_uv,k,15-j)
+                offsetUV(_up_uv,i,k)
+                offsetUV(_down_uv,15-i,k)
 
                 _scale = [
                     1,
@@ -81,8 +105,8 @@ def generateFace(ref, name):
     print(f"Generated {count} JSON files for {name} in {output_dir}\n")
     
 voxel_face_files = [
-    {"file":"voxel_face.json", "name":""},
+    {"file":"voxel_template.json", "name":""},
 ]
 for face in voxel_face_files:
     generateFace(face["file"],face["name"])
-
+print("done!")
