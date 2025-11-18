@@ -124,6 +124,6 @@ data_body = {
 }
 
 with open("component_item.json", "w") as f:
-    json.dump(data_body, f, indent=4)
+    json.dump(data_body, f, separators=(',', ':'))
 
 print(f"Generated component_item.json with {n+1} entries.")
