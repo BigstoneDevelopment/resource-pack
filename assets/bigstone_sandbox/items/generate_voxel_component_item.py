@@ -98,9 +98,7 @@ def generateVoxObject(file_dir, width, height, depth, downsample=False):
     }
 
 
-# -------------------
-# Generate both models
-# -------------------
+# Generate models
 
 voxel_output = generateVoxObject(
     "component_3d_item",
@@ -112,6 +110,12 @@ voxel_output_half_res = generateVoxObject(
     "component_3d_item_half_res",
     8, 8, 8,
     downsample=True      # real 2x2x2 sampling!
+)
+
+voxel_output_gui = generateVoxObject(
+    "component_3d_item_gui",
+    16, 16, 16,
+    downsample=False
 )
 
 # variables for dummy
@@ -186,16 +190,28 @@ model_dummy_in_use = {
                     ]
                 }
 
+display_sub_context = {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "when": ["gui","firstperson_righthand","firstperson_lefthand"],
+                "model": voxel_output_gui
+            }
+        ],
+        "fallback": voxel_output_half_res
+    }
+
 display_context = {
         "type": "minecraft:select",
         "property": "minecraft:display_context",
         "cases": [
             {
-                "when": ["gui","firstperson_righthand","firstperson_lefthand","fixed"],
+                "when": ["fixed"],
                 "model": voxel_output
             }
         ],
-        "fallback": voxel_output_half_res
+        "fallback": display_sub_context
     }
 
 custom_display = {
