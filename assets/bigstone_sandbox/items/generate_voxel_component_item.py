@@ -21,8 +21,6 @@ for i in range(target):  # num
         z == 0 or z == 15
     )
 
-    checklist = [i-1,i+1,i+16,i-16,i+16*2,i-16*16]
-
     voxel_cube = {
         "type": "minecraft:model",
         "model": f"bigstone_sandbox:item/component_3d_item/{index_str}",
