@@ -3,7 +3,7 @@ import json
 target = 16*16*16
 voxel = []
 for i in range(target):  # num
-    index_str = f"{i:04d}"  # 0000, 0001,
+    index_str = '{0:x}'.format(i)
 
     x = i % 16
     y = (i // 16) % 16

@@ -47,7 +47,7 @@ def generateFace(ref, name):
     for i in range(width_count):
         for j in range(height_count):
             for k in range(depth_count):
-                file_name = f'{count:04d}'
+                file_name = '{0:x}'.format(count)
                 count+=1
                 
                 _copy = copy.deepcopy(voxel_face["elements"][0])
@@ -72,7 +72,7 @@ def generateFace(ref, name):
                 clampArray(_to)
 
                 data = {
-                        "parent": "bigstone_sandbox:item/display_base_voxel",
+                        "parent": "bigstone_sandbox:item/v",
                         "elements": [_copy]
                     }
 
