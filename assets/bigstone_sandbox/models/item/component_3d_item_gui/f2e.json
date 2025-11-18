@@ -16,29 +16,29 @@
         "north": {
           "uv": [
             0,
-            0,
+            13,
             1,
-            1
+            14
           ],
           "texture": "#1",
           "tintindex": 0
         },
         "east": {
           "uv": [
-            0,
-            0,
             1,
-            1
+            13,
+            2,
+            14
           ],
           "texture": "#1",
           "tintindex": 0
         },
         "up": {
           "uv": [
-            0,
-            0,
-            1,
-            1
+            15,
+            14,
+            16,
+            15
           ],
           "texture": "#1",
           "tintindex": 0

@@ -15,30 +15,30 @@
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            1,
-            1
+            11,
+            7,
+            12,
+            8
           ],
           "texture": "#1",
           "tintindex": 0
         },
         "east": {
           "uv": [
-            0,
-            0,
-            1,
-            1
+            13,
+            7,
+            14,
+            8
           ],
           "texture": "#1",
           "tintindex": 0
         },
         "up": {
           "uv": [
-            0,
-            0,
-            1,
-            1
+            4,
+            2,
+            5,
+            3
           ],
           "texture": "#1",
           "tintindex": 0
