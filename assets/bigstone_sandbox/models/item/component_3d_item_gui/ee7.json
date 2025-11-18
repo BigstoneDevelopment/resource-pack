@@ -13,7 +13,7 @@
         8
       ],
       "faces": {
-        "south": {
+        "north": {
           "uv": [
             0,
             0,
@@ -23,7 +23,7 @@
           "texture": "#1",
           "tintindex": 0
         },
-        "west": {
+        "east": {
           "uv": [
             0,
             0,

@@ -117,6 +117,11 @@ voxel_output_gui = generateVoxObject(
     16, 16, 16,
     downsample=False
 )
+voxel_output_fp = generateVoxObject(
+    "component_3d_item_fp",
+    16, 16, 16,
+    downsample=False
+)
 
 # variables for dummy
 n = 256  # change this — will generate 00..n entries
@@ -190,17 +195,6 @@ model_dummy_in_use = {
                     ]
                 }
 
-display_sub_context = {
-        "type": "minecraft:select",
-        "property": "minecraft:display_context",
-        "cases": [
-            {
-                "when": ["gui","firstperson_righthand","firstperson_lefthand"],
-                "model": voxel_output_gui
-            }
-        ],
-        "fallback": voxel_output_half_res
-    }
 
 display_context = {
         "type": "minecraft:select",
@@ -209,9 +203,17 @@ display_context = {
             {
                 "when": ["fixed"],
                 "model": voxel_output
+            },
+            {
+                "when": ["gui"],
+                "model": voxel_output_gui
+            },
+            {
+                "when": ["firstperson_righthand","firstperson_lefthand"],
+                "model": voxel_output_fp
             }
         ],
-        "fallback": display_sub_context
+        "fallback": voxel_output_half_res
     }
 
 custom_display = {
