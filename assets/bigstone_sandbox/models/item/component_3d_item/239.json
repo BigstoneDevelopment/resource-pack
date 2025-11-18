@@ -1,0 +1,79 @@
+{
+  "parent": "bigstone_sandbox:item/v",
+  "elements": [
+    {
+      "from": [
+        2,
+        3,
+        9
+      ],
+      "to": [
+        3,
+        4,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            12,
+            14,
+            13
+          ],
+          "texture": "#1",
+          "tintindex": 0
+        },
+        "east": {
+          "uv": [
+            6,
+            12,
+            7,
+            13
+          ],
+          "texture": "#1",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            12,
+            3,
+            13
+          ],
+          "texture": "#1",
+          "tintindex": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            12,
+            10,
+            13
+          ],
+          "texture": "#1",
+          "tintindex": 0
+        },
+        "up": {
+          "uv": [
+            2,
+            9,
+            3,
+            10
+          ],
+          "texture": "#1",
+          "tintindex": 0
+        },
+        "down": {
+          "uv": [
+            13,
+            9,
+            14,
+            10
+          ],
+          "texture": "#1",
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

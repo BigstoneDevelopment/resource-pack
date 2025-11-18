@@ -1,0 +1,49 @@
+{
+  "parent": "bigstone_sandbox:item/v",
+  "elements": [
+    {
+      "from": [
+        0,
+        12,
+        10
+      ],
+      "to": [
+        1,
+        13,
+        11
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0,
+            3,
+            1,
+            4
+          ],
+          "texture": "#1",
+          "tintindex": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            3,
+            11,
+            4
+          ],
+          "texture": "#1",
+          "tintindex": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            10,
+            1,
+            11
+          ],
+          "texture": "#1",
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

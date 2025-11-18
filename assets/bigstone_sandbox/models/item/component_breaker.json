@@ -1,6 +1,4 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "bigstone_sandbox:item/component_breaker/base",
 		"1": "bigstone_sandbox:item/component_breaker/rope1",
