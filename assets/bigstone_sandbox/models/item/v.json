@@ -18,6 +18,7 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 45, 0],
+			"translation": [0, 3, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_lefthand": {
@@ -34,8 +35,7 @@
 		},
 		"head": {
 			"rotation": [0, -180, 0],
-			"translation": [0, 13, 7],
-			"scale": [0.5, 0.5, 0.5]
+			"translation": [0, 1.5, 0]
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],
