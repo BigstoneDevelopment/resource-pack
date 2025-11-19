@@ -29,12 +29,29 @@ def generateVoxObject(file, width, neighbours_to_check = neighbourCheck,edges_to
 
     for i in range(target):
         index_str = f"{i:x}"
-
+        
         # Convert 1D → 3D
         x = i % width
         y = (i // width) % height
         z = i // (width * height)
 
+        default_tint = 16777215
+
+        if isinstance(file, list):
+            list_pos = min(x, len(file) - 1)
+            entry = file[list_pos]
+
+            if isinstance(entry, dict):
+                file_dir = entry["file"]
+                neighbours_to_check = entry.get("neighbours_to_check", None)
+            else:
+                file_dir = entry
+            # debug colour if last element
+            if list_pos == len(file) - 1:
+                default_tint = 16718362
+        else:
+            # file is a single string
+            file_dir = file
         # Compute neighbor indices
         neighbours = [
             i + (neigh[0]*off_x) + (neigh[1]*off_y) + (neigh[2]*off_z) for neigh in neighbours_to_check
@@ -58,19 +75,13 @@ def generateVoxObject(file, width, neighbours_to_check = neighbourCheck,edges_to
             # normal: tint is just the voxel index
             tint_index = i
 
-        if type(file) == list:
-            list_pos = min(x,len(file)-1)
-            file_dir = file[list_pos]
-        else:
-            file_dir = file
-
         voxel_cube = {
             "type": "minecraft:model",
             "model": f"bigstone_sandbox:item/{file_dir}/{index_str}",
             "tints": [
                 {
                     "type": "minecraft:custom_model_data",
-                    "default": 16777215,
+                    "default": default_tint,
                     "index": tint_index
                 }
             ]
@@ -145,18 +156,37 @@ neighbourCheck_fp = [
 edgesCheck_fp = [
     [0,1,0]
 ]
-voxel_output_fp = generateVoxObject(
-    ["component_3d_item_fp_offhand","component_3d_item_fp_offhand","component_3d_item_fp"],
-    16,
-    neighbours_to_check=neighbourCheck_fp,
-    edges_to_check=edgesCheck_fp,
-    downsample=False
-)
+
 neighbourCheck_fp_offhand = [
     [-1,0,0],
     [0,1,0],
     [0,0,-1]
 ]
+voxel_output_fp = generateVoxObject(
+    [
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        {
+            "file":"component_3d_item_fp_offhand",
+            "neighbours_to_check": neighbourCheck_fp_offhand
+        },
+    ],
+    16,
+    neighbours_to_check=neighbourCheck_fp,
+    edges_to_check=edgesCheck_fp,
+    downsample=False
+)
 voxel_output_fp_offhand = generateVoxObject(
     "component_3d_item_fp_offhand",
     16,
