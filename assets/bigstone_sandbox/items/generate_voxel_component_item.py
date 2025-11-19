@@ -47,8 +47,8 @@ def generateVoxObject(file, width, neighbours_to_check = neighbourCheck,edges_to
             else:
                 file_dir = entry
             # debug colour if last element
-            if list_pos == len(file) - 1:
-                default_tint = 16718362
+            #if list_pos == len(file) - 1:
+            #    default_tint = 16718362
         else:
             # file is a single string
             file_dir = file
