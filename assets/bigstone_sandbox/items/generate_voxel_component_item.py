@@ -13,8 +13,11 @@ neighbourCheck = [
     [0,-1,0],[0,1,0],
     [0,0,-1],[0,0,1]
 ]
-def generateVoxObject(file_dir, width, neighbours_to_check = neighbourCheck, downsample=False):
+def generateVoxObject(file, width, neighbours_to_check = neighbourCheck,edges_to_check = [], downsample=False):
     voxel = []
+    if not edges_to_check:
+        edges_to_check = neighbours_to_check
+
     height = width
     depth = width
     target = width * height * depth
@@ -39,7 +42,7 @@ def generateVoxObject(file_dir, width, neighbours_to_check = neighbourCheck, dow
 
         # Edge detection
         is_edge = False
-        for dx, dy, dz in neighbours_to_check:
+        for dx, dy, dz in edges_to_check:
             nx = x + dx
             ny = y + dy
             nz = z + dz
@@ -54,6 +57,12 @@ def generateVoxObject(file_dir, width, neighbours_to_check = neighbourCheck, dow
         else:
             # normal: tint is just the voxel index
             tint_index = i
+
+        if type(file) == list:
+            list_pos = min(x,len(file)-1)
+            file_dir = file[list_pos]
+        else:
+            file_dir = file
 
         voxel_cube = {
             "type": "minecraft:model",
@@ -133,10 +142,14 @@ neighbourCheck_fp = [
     [0,1,0],
     [0,0,-1]
 ]
+edgesCheck_fp = [
+    [0,1,0]
+]
 voxel_output_fp = generateVoxObject(
-    "component_3d_item_fp",
+    ["component_3d_item_fp_offhand","component_3d_item_fp_offhand","component_3d_item_fp"],
     16,
     neighbours_to_check=neighbourCheck_fp,
+    edges_to_check=edgesCheck_fp,
     downsample=False
 )
 neighbourCheck_fp_offhand = [
@@ -260,6 +273,6 @@ data_body = {
     "model": custom_display
 }
 
-with open("component_3d_item.json", "w") as f:
-    json.dump(data_body, f, indent=4)
+with open("component_item.json", "w") as f:
+    json.dump(data_body, f, separators=(',', ':'))
 print("done")
