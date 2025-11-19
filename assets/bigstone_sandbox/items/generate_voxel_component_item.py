@@ -38,11 +38,14 @@ def generateVoxObject(file_dir, width, neighbours_to_check = neighbourCheck, dow
         ]
 
         # Edge detection
-        is_edge = (
-            x == 0 or x == width - 1 or
-            y == 0 or y == height - 1 or
-            z == 0 or z == depth - 1
-        )
+        is_edge = False
+        for dx, dy, dz in neighbours_to_check:
+            nx = x + dx
+            ny = y + dy
+            nz = z + dz
+            if nx < 0 or nx >= width or ny < 0 or ny >= height or nz < 0 or nz >= depth:
+                is_edge = True
+                break
 
         # Determine correct tint index
         if downsample:
@@ -136,6 +139,17 @@ voxel_output_fp = generateVoxObject(
     neighbours_to_check=neighbourCheck_fp,
     downsample=False
 )
+neighbourCheck_fp_offhand = [
+    [-1,0,0],
+    [0,1,0],
+    [0,0,-1]
+]
+voxel_output_fp_offhand = generateVoxObject(
+    "component_3d_item_fp_offhand",
+    16,
+    neighbours_to_check=neighbourCheck_fp_offhand,
+    downsample=False
+)
 
 # variables for dummy
 n = 256  # change this — will generate 00..n entries
@@ -223,8 +237,12 @@ display_context = {
                 "model": voxel_output_gui
             },
             {
-                "when": ["firstperson_righthand","firstperson_lefthand"],
+                "when": ["firstperson_righthand"],
                 "model": voxel_output_fp
+            },
+            {
+                "when": ["firstperson_lefthand"],
+                "model": voxel_output_fp_offhand
             }
         ],
         "fallback": voxel_output_half_res
