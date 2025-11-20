@@ -101,7 +101,7 @@ def generateFace(ref, name):
                     }
 
                 with open(os.path.join(output_dir, f"{file_name}{name}.json"), 'w') as f:
-                    json.dump(data, f, indent=2)
+                    json.dump(data, f, separators=(',', ':'))
     print(f"Generated {count} JSON files for {name} in {output_dir}\n")
     
 voxel_face_files = [

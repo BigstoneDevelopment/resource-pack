@@ -13,8 +13,11 @@ neighbourCheck = [
     [0,-1,0],[0,1,0],
     [0,0,-1],[0,0,1]
 ]
-def generateVoxObject(file_dir, width, neighbours_to_check = neighbourCheck, downsample=False):
+def generateVoxObject(file, width, neighbours_to_check = neighbourCheck,edges_to_check = [], downsample=False):
     voxel = []
+    if not edges_to_check:
+        edges_to_check = neighbours_to_check
+
     height = width
     depth = width
     target = width * height * depth
@@ -26,23 +29,43 @@ def generateVoxObject(file_dir, width, neighbours_to_check = neighbourCheck, dow
 
     for i in range(target):
         index_str = f"{i:x}"
-
+        
         # Convert 1D → 3D
         x = i % width
         y = (i // width) % height
         z = i // (width * height)
 
+        default_tint = 16777215
+
+        if isinstance(file, list):
+            list_pos = min(x, len(file) - 1)
+            entry = file[list_pos]
+
+            if isinstance(entry, dict):
+                file_dir = entry["file"]
+                neighbours_to_check = entry.get("neighbours_to_check", None)
+            else:
+                file_dir = entry
+            # debug colour if last element
+            #if list_pos == len(file) - 1:
+            #    default_tint = 16718362
+        else:
+            # file is a single string
+            file_dir = file
         # Compute neighbor indices
         neighbours = [
             i + (neigh[0]*off_x) + (neigh[1]*off_y) + (neigh[2]*off_z) for neigh in neighbours_to_check
         ]
 
         # Edge detection
-        is_edge = (
-            x == 0 or x == width - 1 or
-            y == 0 or y == height - 1 or
-            z == 0 or z == depth - 1
-        )
+        is_edge = False
+        for dx, dy, dz in edges_to_check:
+            nx = x + dx
+            ny = y + dy
+            nz = z + dz
+            if nx < 0 or nx >= width or ny < 0 or ny >= height or nz < 0 or nz >= depth:
+                is_edge = True
+                break
 
         # Determine correct tint index
         if downsample:
@@ -58,7 +81,7 @@ def generateVoxObject(file_dir, width, neighbours_to_check = neighbourCheck, dow
             "tints": [
                 {
                     "type": "minecraft:custom_model_data",
-                    "default": 16777215,
+                    "default": default_tint,
                     "index": tint_index
                 }
             ]
@@ -130,10 +153,44 @@ neighbourCheck_fp = [
     [0,1,0],
     [0,0,-1]
 ]
+edgesCheck_fp = [
+    [0,1,0]
+]
+
+neighbourCheck_fp_offhand = [
+    [-1,0,0],
+    [0,1,0],
+    [0,0,-1]
+]
 voxel_output_fp = generateVoxObject(
-    "component_3d_item_fp",
+    [
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        "component_3d_item_fp",
+        {
+            "file":"component_3d_item_fp_offhand",
+            "neighbours_to_check": neighbourCheck_fp_offhand
+        },
+    ],
     16,
     neighbours_to_check=neighbourCheck_fp,
+    edges_to_check=edgesCheck_fp,
+    downsample=False
+)
+voxel_output_fp_offhand = generateVoxObject(
+    "component_3d_item_fp_offhand",
+    16,
+    neighbours_to_check=neighbourCheck_fp_offhand,
     downsample=False
 )
 
@@ -223,8 +280,12 @@ display_context = {
                 "model": voxel_output_gui
             },
             {
-                "when": ["firstperson_righthand","firstperson_lefthand"],
+                "when": ["firstperson_righthand"],
                 "model": voxel_output_fp
+            },
+            {
+                "when": ["firstperson_lefthand"],
+                "model": voxel_output_fp_offhand
             }
         ],
         "fallback": voxel_output_half_res
@@ -242,6 +303,6 @@ data_body = {
     "model": custom_display
 }
 
-with open("component_3d_item.json", "w") as f:
-    json.dump(data_body, f, indent=4)
+with open("component_item.json", "w") as f:
+    json.dump(data_body, f, separators=(',', ':'))
 print("done")
