@@ -26,6 +26,7 @@ void main() {
         vec3 pos0 = _pos0.xyz / _pos0.w;
         vec3 pos2 = _pos2.xyz / _pos2.w;
         if (abs(pos0.x - pos2.x) < 1.5 && abs(pos0.y - pos2.y) > 20.5) discard;
+        if (abs(pos0.x - pos2.x) > 260 && abs(pos0.x - pos2.x) < 270 && abs(pos0.y - pos2.y) < 1.5) discard;
     }
     vec4 color = vertexColor;
     if (color.a == 0.0) {
