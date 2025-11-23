@@ -304,5 +304,6 @@ data_body = {
 }
 
 with open("component_item.json", "w") as f:
-    json.dump(data_body, f, separators=(',', ':'))
+    #json.dump(data_body, f, separators=(',', ':'))
+    json.dump(data_body, f, indent=1)
 print("done")
