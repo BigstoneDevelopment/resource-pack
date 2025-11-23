@@ -22,15 +22,18 @@
   "bigstone_sandbox.dialog_menu.credits_line2": "Copyright (c) 2025 BigstoneDevelopment.",
 
   "bigstone_sandbox.dialog_menu.credits.devs": "Huckle / CrazyH2 \nArttale / Art\nXoliks / Xoliks",
-  "bigstone_sandbox.dialog_menu.credits.uiux_artists": "Huckle (UI Mockups)\nXoliks",
+  "bigstone_sandbox.dialog_menu.credits.asset_artists": "Arttale (Models)\nHuckle (UI Mockups)\nXoliks (Buttons)",
   "bigstone_sandbox.dialog_menu.credits.wiki_maintainers": "gingrspacecadet (Founder)\nSpin4team4096\nTheCrazy8",
   "bigstone_sandbox.dialog_menu.credits.attributions": "Utility Lib - Bookshelf\nItem Structures - Shuba\nPlayerdata Lib - Xolibs\nMenu Music - Blooper Nova by OmicronGaming",
 
+  "bigstone_sandbox.item.temporary_component": "Temporary Component",
+  "bigstone_sandbox.item.temporary_component_description": "This is a temporary component.",
   "bigstone_sandbox.item.component_saver": "Component Saver",
   "bigstone_sandbox.item.component_saver_description": "Used to save Bigstone components safely.",
   "bigstone_sandbox.item.component_breaker": "Component Breaker",
   "bigstone_sandbox.item.component_breaker_description": "Used to break Bigstone components safely.",
   "bigstone_sandbox.item.right_click_action": "Right click to use",
+  "bigstone_sandbox.item.data_stored_on_item": "The data is only stored on the item",
 
   "bigstone_sandbox.tellraw_message.title": "Bigstone Sandbox",
   "bigstone_sandbox.tellraw_message.description": "A simple Bigstone Sandbox",
@@ -60,7 +63,7 @@
   "bigstone_sandbox.dialog_menu.click_event_help": "Click to open our Github",
 
   "bigstone_sandbox.dialog_menu.devs_subtitle": "Developers",
-  "bigstone_sandbox.dialog_menu.uiux_artists_subtitle": "UI/UX Artists",
+  "bigstone_sandbox.dialog_menu.asset_artists_subtitle": "Asset Artists",
   "bigstone_sandbox.dialog_menu.wiki_maintainers_subtitle": "Wiki Maintainers",
   "bigstone_sandbox.dialog_menu.attributions_subtitle": "Other Attributions",
   "bigstone_sandbox.dialog_menu.ui_subtitle": "User Interface",
@@ -155,6 +158,8 @@
   "bigstone_sandbox.dialog_menu.import_from_item_data": "Import from Item Data",
   "bigstone_sandbox.dialog_menu.import_private_from_hand": "Import component privately",
   "bigstone_sandbox.dialog_menu.import_public_from_hand": "Import component publicly",
+  "bigstone_sandbox.dialog_menu.temporary_item": "Temporary Item",
+  "bigstone_sandbox.dialog_menu.temporary_item_hover": "Give Temporary Item",
   "bigstone_sandbox.dialog_menu.version_info": "Versions\nDP Format: %1$s, Datapack: %2$s, Assets: %3$s",
   "bigstone_sandbox.dialog_menu.included_filters": "Included filters",
   "bigstone_sandbox.dialog_menu.excluded_filters": "Excluded filters",
