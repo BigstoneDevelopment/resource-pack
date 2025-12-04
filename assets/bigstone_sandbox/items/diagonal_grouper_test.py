@@ -178,11 +178,12 @@ class vox_json:
         if not json_list:
             return {"type": "minecraft:empty"}
         
+        empty = {"type": "minecraft:empty"}
         #reverse list
         list_to_sort = list(reversed(json_list))
-        voxel_tree = list_to_sort[0]
+        voxel_tree = empty
 
-        for model in list_to_sort[1:]:
+        for model in list_to_sort:
             #why not some extra checks
             try:
                 index = model["tints"][0]["index"]
@@ -194,8 +195,8 @@ class vox_json:
                 "type": "minecraft:condition",
                 "property": "minecraft:custom_model_data",
                 "index": index,
-                "on_true": voxel_tree,
-                "on_false": {"type": "minecraft:empty"}
+                "on_true": model,
+                "on_false": voxel_tree
             }
             voxel_tree = voxel_group
         return voxel_tree
